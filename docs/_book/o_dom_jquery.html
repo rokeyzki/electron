@@ -1,0 +1,2381 @@
+<!DOCTYPE HTML>
+<html lang="en" >
+    
+    <head>
+        
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>DOM - jQuery | 前端 手册</title>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 2.4.2">
+        
+        
+        <meta name="HandheldFriendly" content="true"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+        <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+        
+    <link rel="stylesheet" href="gitbook/style.css">
+    
+        
+        <link rel="stylesheet" href="gitbook/plugins/gitbook-plugin-highlight/website.css">
+        
+    
+    
+
+        
+    
+    
+    <link rel="next" href="./o_wom.html" />
+    
+    
+    <link rel="prev" href="./o_dom.html" />
+    
+
+        
+    </head>
+    <body>
+        
+        
+    <div class="book" data-level="1.5" data-basepath="." data-revision="Sat Oct 29 2016 23:07:44 GMT+0800 (CST)">
+    
+
+<div class="book-summary">
+    <div class="book-search" role="search">
+        <input type="text" placeholder="Type to search" class="form-control" />
+    </div>
+    <nav role="navigation">
+        <ul class="summary">
+            
+            
+            
+            
+
+            
+
+            
+    
+        <li class="chapter " data-level="0" data-path="index.html">
+            
+                
+                    <a href="./index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                        Introduction
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1" data-path="outline.html">
+            
+                
+                    <a href="./outline.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.</b>
+                        
+                        纲要
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1" data-path="o_css.html">
+            
+                
+                    <a href="./o_css.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.1.</b>
+                        
+                        CSS
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="o_jom.html">
+            
+                
+                    <a href="./o_jom.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.2.</b>
+                        
+                        JOM
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="o_jom_lodash.html">
+            
+                
+                    <a href="./o_jom_lodash.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.3.</b>
+                        
+                        JOM - Lodash
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="o_dom.html">
+            
+                
+                    <a href="./o_dom.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.4.</b>
+                        
+                        DOM
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.5" data-path="o_dom_jquery.html">
+            
+                
+                    <a href="./o_dom_jquery.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.5.</b>
+                        
+                        DOM - jQuery
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="o_wom.html">
+            
+                
+                    <a href="./o_wom.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.6.</b>
+                        
+                        WOM
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2" data-path="grammar.html">
+            
+                
+                    <a href="./grammar.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.</b>
+                        
+                        语法
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1" data-path="grammar_type.html">
+            
+                
+                    <a href="./grammar_type.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.1.</b>
+                        
+                        数据类型
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="grammar_error.html">
+            
+                
+                    <a href="./grammar_error.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.2.</b>
+                        
+                        异常处理
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="3" data-path="object.html">
+            
+                
+                    <a href="./object.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.</b>
+                        
+                        对象
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.1" data-path="object_structure.html">
+            
+                
+                    <a href="./object_structure.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.1.</b>
+                        
+                        结构
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2" data-path="object_property.html">
+            
+                
+                    <a href="./object_property.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.2.</b>
+                        
+                        属性
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.3" data-path="object_method.html">
+            
+                
+                    <a href="./object_method.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.3.</b>
+                        
+                        方法
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.4" data-path="object_oop.html">
+            
+                
+                    <a href="./object_oop.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.4.</b>
+                        
+                        模块
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="4" data-path="jom_a.html">
+            
+                
+                    <a href="./jom_a.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.</b>
+                        
+                        JOM - A
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.1" data-path="jom_boolean.html">
+            
+                
+                    <a href="./jom_boolean.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.1.</b>
+                        
+                        布尔 - Boolean
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2" data-path="jom_json.html">
+            
+                
+                    <a href="./jom_json.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.2.</b>
+                        
+                        格式 - JSON
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.3" data-path="jom_number.html">
+            
+                
+                    <a href="./jom_number.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.3.</b>
+                        
+                        数值 - Number
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.4" data-path="jom_math.html">
+            
+                
+                    <a href="./jom_math.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.4.</b>
+                        
+                        计算 - Math
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.5" data-path="jom_string.html">
+            
+                
+                    <a href="./jom_string.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.5.</b>
+                        
+                        字符 - String
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.6" data-path="jom_regexp.html">
+            
+                
+                    <a href="./jom_regexp.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.6.</b>
+                        
+                        正则 - Regexp
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="5" data-path="jom_b.html">
+            
+                
+                    <a href="./jom_b.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.</b>
+                        
+                        JOM - B
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="5.1" data-path="jom_function.html">
+            
+                
+                    <a href="./jom_function.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.1.</b>
+                        
+                        函数 - Function
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.2" data-path="jom_array.html">
+            
+                
+                    <a href="./jom_array.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.2.</b>
+                        
+                        数组 - Array
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.3" data-path="jom_date.html">
+            
+                
+                    <a href="./jom_date.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.3.</b>
+                        
+                        日期 - Date
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="6" data-path="dom_a.html">
+            
+                
+                    <a href="./dom_a.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.</b>
+                        
+                        DOM - A
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="6.1" data-path="dom_node.html">
+            
+                
+                    <a href="./dom_node.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.1.</b>
+                        
+                        节点 - Node
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="6.2" data-path="dom_document.html">
+            
+                
+                    <a href="./dom_document.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.2.</b>
+                        
+                        文档 - Document
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="6.3" data-path="dom_element.html">
+            
+                
+                    <a href="./dom_element.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.3.</b>
+                        
+                        元素 - Element
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="6.4" data-path="dom_text.html">
+            
+                
+                    <a href="./dom_text.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.4.</b>
+                        
+                        文本 - Text
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="7" data-path="dom_b.html">
+            
+                
+                    <a href="./dom_b.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.</b>
+                        
+                        DOM - B
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="7.1" data-path="dom_event.html">
+            
+                
+                    <a href="./dom_event.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.1.</b>
+                        
+                        事件 - Event
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="7.2" data-path="dom_style.html">
+            
+                
+                    <a href="./dom_style.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.2.</b>
+                        
+                        样式 - Style
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="8" data-path="bom_a.html">
+            
+                
+                    <a href="./bom_a.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>8.</b>
+                        
+                        BOM - A
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="8.1" data-path="bom_navigator.html">
+            
+                
+                    <a href="./bom_navigator.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>8.1.</b>
+                        
+                        引擎 - Navigator
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="8.2" data-path="bom_window.html">
+            
+                
+                    <a href="./bom_window.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>8.2.</b>
+                        
+                        窗口 - Window
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="8.3" data-path="bom_history.html">
+            
+                
+                    <a href="./bom_history.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>8.3.</b>
+                        
+                        历史 - History
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="9" data-path="bom_b.html">
+            
+                
+                    <a href="./bom_b.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>9.</b>
+                        
+                        BOM - B
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="9.1" data-path="bom_ajax.html">
+            
+                
+                    <a href="./bom_ajax.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>9.1.</b>
+                        
+                        请求 - AJAX
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="9.2" data-path="bom_timer.html">
+            
+                
+                    <a href="./bom_timer.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>9.2.</b>
+                        
+                        定时 - Timer
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="9.3" data-path="bom_data.html">
+            
+                
+                    <a href="./bom_data.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>9.3.</b>
+                        
+                        数据 - Data
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="9.4" data-path="bom_api.html">
+            
+                
+                    <a href="./bom_api.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>9.4.</b>
+                        
+                        接口 - API
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="10" data-path="css_a.html">
+            
+                
+                    <a href="./css_a.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>10.</b>
+                        
+                        CSS - A
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="10.1" data-path="css_base.html">
+            
+                
+                    <a href="./css_base.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>10.1.</b>
+                        
+                        基础 - Base
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="10.2" data-path="css_box.html">
+            
+                
+                    <a href="./css_box.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>10.2.</b>
+                        
+                        盒子 - Box
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="10.3" data-path="css_position.html">
+            
+                
+                    <a href="./css_position.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>10.3.</b>
+                        
+                        定位 - Position
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="10.4" data-path="css_background.html">
+            
+                
+                    <a href="./css_background.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>10.4.</b>
+                        
+                        背景 - Background
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="10.5" data-path="css_space.html">
+            
+                
+                    <a href="./css_space.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>10.5.</b>
+                        
+                        留白 - Space
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="10.6" data-path="css_font.html">
+            
+                
+                    <a href="./css_font.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>10.6.</b>
+                        
+                        字体 - Font
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="10.7" data-path="css_hint.html">
+            
+                
+                    <a href="./css_hint.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>10.7.</b>
+                        
+                        修正 - Hint
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="10.8" data-path="css_animation.html">
+            
+                
+                    <a href="./css_animation.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>10.8.</b>
+                        
+                        动画 - Animation
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="10.9" data-path="css_transform.html">
+            
+                
+                    <a href="./css_transform.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>10.9.</b>
+                        
+                        变形 - Transform
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="11" data-path="css_b.html">
+            
+                
+                    <a href="./css_b.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>11.</b>
+                        
+                        CSS - B
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="11.1" data-path="css_selecter.html">
+            
+                
+                    <a href="./css_selecter.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>11.1.</b>
+                        
+                        选择 - Selecter
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="11.2" data-path="css_shape.html">
+            
+                
+                    <a href="./css_shape.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>11.2.</b>
+                        
+                        几何 - Shape
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="11.3" data-path="css_layout.html">
+            
+                
+                    <a href="./css_layout.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>11.3.</b>
+                        
+                        布局 - Layout
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+
+            
+            <li class="divider"></li>
+            <li>
+                <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+                    Published with GitBook
+                </a>
+            </li>
+            
+        </ul>
+    </nav>
+</div>
+
+    <div class="book-body">
+        <div class="body-inner">
+            <div class="book-header" role="navigation">
+    <!-- Actions Left -->
+    <a href="#" class="btn pull-left toggle-summary" aria-label="Table of Contents"><i class="fa fa-align-justify"></i></a>
+    <a href="#" class="btn pull-left toggle-search" aria-label="Search"><i class="fa fa-search"></i></a>
+    
+    <div id="font-settings-wrapper" class="dropdown pull-left">
+        <a href="#" class="btn toggle-dropdown" aria-label="Font Settings"><i class="fa fa-font"></i>
+        </a>
+        <div class="dropdown-menu font-settings">
+    <div class="dropdown-caret">
+        <span class="caret-outer"></span>
+        <span class="caret-inner"></span>
+    </div>
+
+    <div class="buttons">
+        <button type="button" id="reduce-font-size" class="button size-2">A</button>
+        <button type="button" id="enlarge-font-size" class="button size-2">A</button>
+    </div>
+
+    <div class="buttons font-family-list">
+        <button type="button" data-font="0" class="button">Serif</button>
+        <button type="button" data-font="1" class="button">Sans</button>
+    </div>
+
+    <div class="buttons color-theme-list">
+        <button type="button" id="color-theme-preview-0" class="button size-3" data-theme="0">White</button>
+        <button type="button" id="color-theme-preview-1" class="button size-3" data-theme="1">Sepia</button>
+        <button type="button" id="color-theme-preview-2" class="button size-3" data-theme="2">Night</button>
+    </div>
+</div>
+
+    </div>
+
+    <!-- Actions Right -->
+    
+    <div class="dropdown pull-right">
+        <a href="#" class="btn toggle-dropdown" aria-label="Share"><i class="fa fa-share-alt"></i>
+        </a>
+        <div class="dropdown-menu font-settings dropdown-left">
+            <div class="dropdown-caret">
+                <span class="caret-outer"></span>
+                <span class="caret-inner"></span>
+            </div>
+            <div class="buttons">
+                <button type="button" data-sharing="twitter" class="button">
+                    Share on Twitter
+                </button>
+                <button type="button" data-sharing="google-plus" class="button">
+                    Share on Google
+                </button>
+                <button type="button" data-sharing="facebook" class="button">
+                    Share on Facebook
+                </button>
+                <button type="button" data-sharing="weibo" class="button">
+                    Share on Weibo
+                </button>
+                <button type="button" data-sharing="instapaper" class="button">
+                    Share on Instapaper
+                </button>
+            </div>
+        </div>
+    </div>
+    
+
+    
+    <a href="#" target="_blank" class="btn pull-right google-plus-sharing-link sharing-link" data-sharing="google-plus" aria-label="Google"><i class="fa fa-google-plus"></i></a>
+    
+    
+    <a href="#" target="_blank" class="btn pull-right facebook-sharing-link sharing-link" data-sharing="facebook" aria-label="Facebook"><i class="fa fa-facebook"></i></a>
+    
+    
+    <a href="#" target="_blank" class="btn pull-right twitter-sharing-link sharing-link" data-sharing="twitter" aria-label="Twitter"><i class="fa fa-twitter"></i></a>
+    
+    
+    
+
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="./" >前端 手册</a>
+    </h1>
+</div>
+
+            <div class="page-wrapper" tabindex="-1" role="main">
+                <div class="page-inner">
+                
+                
+                    <section class="normal" id="section-">
+                    
+                        <h2 id="%E7%B1%BB%E5%BA%93-jquery-node-%E6%8E%A2%E6%B5%8B%E6%96%B9%E6%B3%95">&#x7C7B;&#x5E93; jQuery - Node - &#x63A2;&#x6D4B;&#x65B9;&#x6CD5;</h2>
+<blockquote>
+<h3 id="-selector-parent">$(&apos;selector&apos;).parent()</h3>
+<blockquote>
+<h4 id="%E8%AF%B4%E6%98%8E%EF%BC%9A">&#x8BF4;&#x660E;&#xFF1A;</h4>
+<ul>
+<li>&#x7236;&#x7EA7;&#x63A2;&#x6D4B;&#x65B9;&#x6CD5; 1</li>
+<li>&#x5982;&#x679C;&#x5B58;&#x5728;&#x67D0;&#x5143;&#x7D20;&#xFF0C;&#x4ECE;&#x8BE5;&#x5143;&#x7D20;&#x8D77;&#x5411;&#x4E0A;&#x63A2;&#x6D4B;&#xFF0C;&#x4E14;&#x8BE5;&#x5143;&#x7D20; &#x62E5;&#x6709; &#x7B26;&#x5408;&#x6307;&#x5B9A;&#x9009;&#x62E9;&#x6761;&#x4EF6;&#x7684;&#x7236;&#x5143;&#x7D20;&#xFF0C;&#x5219;&#x9009;&#x4E2D;&#x6240;&#x6709;&#x6807;&#x7684;&#x7236;&#x5143;&#x7D20;</li>
+</ul>
+<h4 id="%E7%A4%BA%E4%BE%8B%EF%BC%9A">&#x793A;&#x4F8B;&#xFF1A;</h4>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-title">body</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">id</span>=<span class="hljs-value">&quot;foo&quot;</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">p</span>&gt;</span>  <span class="hljs-comment">&lt;!-- red --&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>0<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>1<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>2<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-title">p</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">p</span>&gt;</span>  <span class="hljs-comment">&lt;!-- red --&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>3<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>4<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>5<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-title">p</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">p</span>&gt;</span>  <span class="hljs-comment">&lt;!-- red --&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>6<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>7<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>8<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-title">p</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">script</span> <span class="hljs-attribute">src</span>=<span class="hljs-value">&quot;https://code.jquery.com/jquery-1.11.3.js&quot;</span>&gt;</span><span class="undefined"></span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">script</span>&gt;</span><span class="javascript">
+    $(<span class="hljs-string">&apos;span&apos;</span>).parent().css(<span class="hljs-string">&apos;background-color&apos;</span>, <span class="hljs-string">&apos;red&apos;</span>);
+  </span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-title">body</span>&gt;</span>
+</code></pre>
+</blockquote>
+<h3 id="-selector-parents">$(&apos;selector&apos;).parents()</h3>
+<blockquote>
+<h4 id="%E8%AF%B4%E6%98%8E%EF%BC%9A">&#x8BF4;&#x660E;&#xFF1A;</h4>
+<ul>
+<li>&#x7236;&#x7EA7;&#x63A2;&#x6D4B;&#x65B9;&#x6CD5; 2</li>
+<li>&#x5982;&#x679C;&#x5B58;&#x5728;&#x67D0;&#x5143;&#x7D20;&#xFF0C;&#x4ECE;&#x672C;&#x5143;&#x7D20;&#x5411;&#x4E0A;&#x63A2;&#x6D4B;&#xFF0C;&#x4E14;&#x8BE5;&#x5143;&#x7D20; &#x62E5;&#x6709; &#x7B26;&#x5408;&#x6307;&#x5B9A;&#x9009;&#x62E9;&#x6761;&#x4EF6;&#x7684;&#x7956;&#x5148;&#x5143;&#x7D20;&#xFF0C;&#x5219;&#x9009;&#x4E2D;&#x6240;&#x6709;&#x6807;&#x7684;&#x7956;&#x5148;&#x5143;&#x7D20;</li>
+</ul>
+<h4 id="%E7%A4%BA%E4%BE%8B%EF%BC%9A">&#x793A;&#x4F8B;&#xFF1A;</h4>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-title">body</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">id</span>=<span class="hljs-value">&quot;foo&quot;</span>&gt;</span>  <span class="hljs-comment">&lt;!-- red --&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">p</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>0<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>1<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>2<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-title">p</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">p</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>3<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>4<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>5<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-title">p</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">p</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>6<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>7<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>8<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-title">p</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">script</span> <span class="hljs-attribute">src</span>=<span class="hljs-value">&quot;https://code.jquery.com/jquery-1.11.3.js&quot;</span>&gt;</span><span class="undefined"></span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">script</span>&gt;</span><span class="javascript">
+    $(<span class="hljs-string">&apos;span&apos;</span>).parents(<span class="hljs-string">&apos;div&apos;</span>).css(<span class="hljs-string">&apos;background-color&apos;</span>, <span class="hljs-string">&apos;red&apos;</span>);
+  </span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-title">body</span>&gt;</span>
+</code></pre>
+</blockquote>
+<h3 id="-selector-parentsuntil">$(&apos;selector&apos;).parentsUntil()</h3>
+<blockquote>
+<h4 id="%E8%AF%B4%E6%98%8E%EF%BC%9A">&#x8BF4;&#x660E;&#xFF1A;</h4>
+<ul>
+<li>&#x7236;&#x7EA7;&#x63A2;&#x6D4B;&#x65B9;&#x6CD5; 3</li>
+<li>&#x5982;&#x679C;&#x5B58;&#x5728;&#x67D0;&#x5143;&#x7D20;&#xFF0C;&#x4ECE;&#x672C;&#x5143;&#x7D20;&#x5411;&#x4E0A;&#x63A2;&#x6D4B;&#xFF0C;&#x5230;&#x5236;&#x5B9A;&#x9009;&#x62E9;&#x6761;&#x4EF6;&#x7684;&#x7956;&#x5148;&#x5143;&#x7D20;&#x4E3A;&#x6B62;&#xFF0C;&#x4E14;&#x8BE5;&#x5143;&#x7D20; &#x62E5;&#x6709; &#x7956;&#x5148;&#x5143;&#x7D20;&#xFF0C;&#x5219;&#x9009;&#x4E2D;&#x6240;&#x6709;&#x6807;&#x7684;&#x7956;&#x5148;&#x5143;&#x7D20;</li>
+</ul>
+<h4 id="%E7%A4%BA%E4%BE%8B%EF%BC%9A">&#x793A;&#x4F8B;&#xFF1A;</h4>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-title">body</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">id</span>=<span class="hljs-value">&quot;foo&quot;</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">p</span>&gt;</span>  <span class="hljs-comment">&lt;!-- red --&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>0<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>1<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>2<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-title">p</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">p</span>&gt;</span>  <span class="hljs-comment">&lt;!-- red --&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>3<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>4<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>5<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-title">p</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">p</span>&gt;</span>  <span class="hljs-comment">&lt;!-- red --&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>6<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>7<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>8<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-title">p</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">script</span> <span class="hljs-attribute">src</span>=<span class="hljs-value">&quot;https://code.jquery.com/jquery-1.11.3.js&quot;</span>&gt;</span><span class="undefined"></span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">script</span>&gt;</span><span class="javascript">
+    $(<span class="hljs-string">&apos;span&apos;</span>).parentsUntil(<span class="hljs-string">&apos;div&apos;</span>).css(<span class="hljs-string">&apos;background-color&apos;</span>, <span class="hljs-string">&apos;red&apos;</span>);
+  </span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-title">body</span>&gt;</span>
+</code></pre>
+</blockquote>
+<h3 id="-selector-offsetparent">$(&apos;selector&apos;).offsetParent()</h3>
+<blockquote>
+<h4 id="%E8%AF%B4%E6%98%8E%EF%BC%9A">&#x8BF4;&#x660E;&#xFF1A;</h4>
+<ul>
+<li>&#x7236;&#x7EA7;&#x63A2;&#x6D4B;&#x65B9;&#x6CD5; 4</li>
+<li>&#x5982;&#x679C;&#x5B58;&#x5728;&#x67D0;&#x5143;&#x7D20;&#xFF0C;&#x4ECE;&#x672C;&#x5143;&#x7D20;&#x5411;&#x4E0A;&#x63A2;&#x6D4B;&#xFF0C;&#x4E14;&#x8BE5;&#x5143;&#x7D20; &#x62E5;&#x6709; &#x7B26;&#x5408;&#x6307;&#x5B9A;&#x9009;&#x62E9;&#x6761;&#x4EF6;&#x7684;&#x7956;&#x5148;&#x5143;&#x7D20;&#xFF0C;&#x4E14;&#x7956;&#x5148;&#x5143;&#x7D20;&#x5E26;&#x6709;position&#x5C5E;&#x6027;&#xFF0C;&#x5219;&#x9009;&#x4E2D;&#x6240;&#x6709;&#x6807;&#x7684;&#x7956;&#x5148;&#x5143;&#x7D20;</li>
+</ul>
+<h4 id="%E7%A4%BA%E4%BE%8B%EF%BC%9A">&#x793A;&#x4F8B;&#xFF1A;</h4>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-title">style</span>&gt;</span><span class="css">
+  <span class="hljs-id">#foo</span> <span class="hljs-rules">{
+    <span class="hljs-rule"><span class="hljs-attribute">position</span>:<span class="hljs-value"> relative</span></span>;
+    <span class="hljs-rule"><span class="hljs-attribute">top</span>:<span class="hljs-value"><span class="hljs-number">100px</span></span></span>;
+  }</span>
+</span><span class="hljs-tag">&lt;/<span class="hljs-title">style</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-title">body</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">id</span>=<span class="hljs-value">&quot;foo&quot;</span>&gt;</span>  <span class="hljs-comment">&lt;!-- red --&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">p</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>0<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>1<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>2<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-title">p</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">p</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>3<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>4<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>5<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-title">p</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">p</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>6<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>7<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>8<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-title">p</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">script</span> <span class="hljs-attribute">src</span>=<span class="hljs-value">&quot;https://code.jquery.com/jquery-1.11.3.js&quot;</span>&gt;</span><span class="undefined"></span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">script</span>&gt;</span><span class="javascript">
+    $(<span class="hljs-string">&apos;span&apos;</span>).offsetParent().css(<span class="hljs-string">&apos;background-color&apos;</span>, <span class="hljs-string">&apos;red&apos;</span>);
+  </span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-title">body</span>&gt;</span>
+</code></pre>
+</blockquote>
+<h3 id="-selector-closest">$(&apos;selector&apos;).closest()</h3>
+<blockquote>
+<h4 id="%E8%AF%B4%E6%98%8E%EF%BC%9A">&#x8BF4;&#x660E;&#xFF1A;</h4>
+<ul>
+<li>&#x7236;&#x7EA7;&#x63A2;&#x6D4B;&#x65B9;&#x6CD5; 5</li>
+<li>&#x5982;&#x679C;&#x5B58;&#x5728;&#x67D0;&#x5143;&#x7D20;&#xFF0C;&#x4ECE;&#x672C;&#x5143;&#x7D20;&#x8D77;&#x5411;&#x4E0A;&#x63A2;&#x6D4B;&#xFF0C;&#x4E14;&#x8BE5;&#x5143;&#x7D20; &#x62E5;&#x6709; &#x7B26;&#x5408;&#x6307;&#x5B9A;&#x9009;&#x62E9;&#x6761;&#x4EF6;&#x7684;&#x7956;&#x5148;&#x5143;&#x7D20;&#x6216;&#x672C;&#x5143;&#x7D20;&#xFF0C;&#x5219;&#x9009;&#x4E2D;&#x6240;&#x6709;&#x6807;&#x7684;&#x7956;&#x5148;&#x5143;&#x7D20;&#x6216;&#x672C;&#x5143;&#x7D20;</li>
+</ul>
+<h4 id="%E7%A4%BA%E4%BE%8B%EF%BC%9A">&#x793A;&#x4F8B;&#xFF1A;</h4>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-title">body</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">id</span>=<span class="hljs-value">&quot;foo&quot;</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">p</span>&gt;</span>  <span class="hljs-comment">&lt;!-- red --&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>0<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>1<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>2<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-title">p</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">p</span>&gt;</span>  <span class="hljs-comment">&lt;!-- red --&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>3<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>4<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>5<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-title">p</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">p</span>&gt;</span>  <span class="hljs-comment">&lt;!-- red --&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>6<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>7<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>8<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-title">p</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">script</span> <span class="hljs-attribute">src</span>=<span class="hljs-value">&quot;https://code.jquery.com/jquery-1.11.3.js&quot;</span>&gt;</span><span class="undefined"></span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">script</span>&gt;</span><span class="javascript">
+    $(<span class="hljs-string">&apos;span&apos;</span>).closest(<span class="hljs-string">&apos;p&apos;</span>).css(<span class="hljs-string">&apos;background-color&apos;</span>, <span class="hljs-string">&apos;red&apos;</span>);
+  </span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-title">body</span>&gt;</span>
+</code></pre>
+</blockquote>
+<h3 id="-selector-siblings">$(&apos;selector&apos;).siblings()</h3>
+<blockquote>
+<h4 id="%E8%AF%B4%E6%98%8E%EF%BC%9A">&#x8BF4;&#x660E;&#xFF1A;</h4>
+<ul>
+<li>&#x5E73;&#x7EA7;&#x63A2;&#x6D4B;&#x65B9;&#x6CD5; 1</li>
+<li>&#x5982;&#x679C;&#x5B58;&#x5728;&#x67D0;&#x5143;&#x7D20;&#xFF0C;&#x4ECE;&#x672C;&#x5143;&#x7D20;&#x8D77;&#x5E73;&#x884C;&#x63A2;&#x6D4B;&#xFF0C;&#x4E14;&#x8BE5;&#x5143;&#x7D20; &#x62E5;&#x6709; &#x7B26;&#x5408;&#x6307;&#x5B9A;&#x9009;&#x62E9;&#x6761;&#x4EF6;&#x7684;&#x5144;&#x5F1F;&#x5143;&#x7D20;&#xFF0C;&#x5219;&#x9009;&#x4E2D;&#x6240;&#x6709;&#x6807;&#x7684;&#x5144;&#x5F1F;&#x5143;&#x7D20;</li>
+</ul>
+<h4 id="%E7%A4%BA%E4%BE%8B%EF%BC%9A">&#x793A;&#x4F8B;&#xFF1A;</h4>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-title">body</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">p</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span> <span class="hljs-attribute">id</span>=<span class="hljs-value">&quot;foo&quot;</span>&gt;</span>0<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>1<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>  <span class="hljs-comment">&lt;!-- red --&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>2<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>  <span class="hljs-comment">&lt;!-- red --&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-title">p</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">p</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>3<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>4<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>5<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-title">p</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">p</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>6<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>7<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>8<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-title">p</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">script</span> <span class="hljs-attribute">src</span>=<span class="hljs-value">&quot;https://code.jquery.com/jquery-1.11.3.js&quot;</span>&gt;</span><span class="undefined"></span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">script</span>&gt;</span><span class="javascript">
+    $(<span class="hljs-string">&apos;#foo&apos;</span>).siblings().css(<span class="hljs-string">&apos;background-color&apos;</span>, <span class="hljs-string">&apos;red&apos;</span>);
+  </span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-title">body</span>&gt;</span>
+</code></pre>
+</blockquote>
+<h3 id="-selector-next">$(&apos;selector&apos;).next()</h3>
+<blockquote>
+<h4 id="%E8%AF%B4%E6%98%8E%EF%BC%9A">&#x8BF4;&#x660E;&#xFF1A;</h4>
+<ul>
+<li>&#x5E73;&#x7EA7;&#x63A2;&#x6D4B;&#x65B9;&#x6CD5; 2</li>
+<li>&#x5982;&#x679C;&#x5B58;&#x5728;&#x67D0;&#x5143;&#x7D20;&#xFF0C;&#x4ECE;&#x672C;&#x5143;&#x7D20;&#x8D77;&#x5E73;&#x884C;&#x63A2;&#x6D4B;&#xFF0C;&#x4E14;&#x8BE5;&#x5143;&#x7D20; &#x62E5;&#x6709; &#x7B26;&#x5408;&#x6307;&#x5B9A;&#x9009;&#x62E9;&#x6761;&#x4EF6;&#x7684;&#x5144;&#x5F1F;&#x5143;&#x7D20;&#xFF0C;&#x5219;&#x9009;&#x4E2D;&#x4E0B;&#x4E00;&#x4E2A;&#x6807;&#x7684;&#x5144;&#x5F1F;&#x5143;&#x7D20;</li>
+</ul>
+<h4 id="%E7%A4%BA%E4%BE%8B%EF%BC%9A">&#x793A;&#x4F8B;&#xFF1A;</h4>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-title">body</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">p</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span> <span class="hljs-attribute">id</span>=<span class="hljs-value">&quot;foo&quot;</span>&gt;</span>0<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>1<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>  <span class="hljs-comment">&lt;!-- red --&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>2<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-title">p</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">p</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>3<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>4<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>5<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-title">p</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">p</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>6<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>7<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>8<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-title">p</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">script</span> <span class="hljs-attribute">src</span>=<span class="hljs-value">&quot;https://code.jquery.com/jquery-1.11.3.js&quot;</span>&gt;</span><span class="undefined"></span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">script</span>&gt;</span><span class="javascript">
+    $(<span class="hljs-string">&apos;#foo&apos;</span>).next().css(<span class="hljs-string">&apos;background-color&apos;</span>, <span class="hljs-string">&apos;red&apos;</span>);
+  </span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-title">body</span>&gt;</span>
+</code></pre>
+</blockquote>
+<h3 id="-selector-nextall">$(&apos;selector&apos;).nextAll()</h3>
+<blockquote>
+<h4 id="%E8%AF%B4%E6%98%8E%EF%BC%9A">&#x8BF4;&#x660E;&#xFF1A;</h4>
+<ul>
+<li>&#x5E73;&#x7EA7;&#x63A2;&#x6D4B;&#x65B9;&#x6CD5; 3</li>
+<li>&#x5982;&#x679C;&#x5B58;&#x5728;&#x67D0;&#x5143;&#x7D20;&#xFF0C;&#x4ECE;&#x672C;&#x5143;&#x7D20;&#x8D77;&#x5E73;&#x884C;&#x63A2;&#x6D4B;&#xFF0C;&#x4E14;&#x8BE5;&#x5143;&#x7D20; &#x62E5;&#x6709; &#x7B26;&#x5408;&#x6307;&#x5B9A;&#x9009;&#x62E9;&#x6761;&#x4EF6;&#x7684;&#x5144;&#x5F1F;&#x5143;&#x7D20;&#xFF0C;&#x5219;&#x9009;&#x4E2D;&#x540E;&#x9762;&#x6240;&#x6709;&#x6807;&#x7684;&#x5144;&#x5F1F;&#x5143;&#x7D20;</li>
+</ul>
+<h4 id="%E7%A4%BA%E4%BE%8B%EF%BC%9A">&#x793A;&#x4F8B;&#xFF1A;</h4>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-title">body</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">p</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span> <span class="hljs-attribute">id</span>=<span class="hljs-value">&quot;foo&quot;</span>&gt;</span>0<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>1<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>  <span class="hljs-comment">&lt;!-- red --&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>2<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>  <span class="hljs-comment">&lt;!-- red --&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-title">p</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">p</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>3<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>4<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>5<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-title">p</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">p</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>6<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>7<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>8<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-title">p</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">script</span> <span class="hljs-attribute">src</span>=<span class="hljs-value">&quot;https://code.jquery.com/jquery-1.11.3.js&quot;</span>&gt;</span><span class="undefined"></span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">script</span>&gt;</span><span class="javascript">
+    $(<span class="hljs-string">&apos;#foo&apos;</span>).nextAll().css(<span class="hljs-string">&apos;background-color&apos;</span>, <span class="hljs-string">&apos;red&apos;</span>);
+  </span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-title">body</span>&gt;</span>
+</code></pre>
+</blockquote>
+<h3 id="-selector-nextuntil">$(&apos;selector&apos;).nextUntil()</h3>
+<blockquote>
+<h4 id="%E8%AF%B4%E6%98%8E%EF%BC%9A">&#x8BF4;&#x660E;&#xFF1A;</h4>
+<ul>
+<li>&#x5E73;&#x7EA7;&#x63A2;&#x6D4B;&#x65B9;&#x6CD5; 4</li>
+<li>&#x5982;&#x679C;&#x5B58;&#x5728;&#x67D0;&#x5143;&#x7D20;&#xFF0C;&#x4ECE;&#x672C;&#x5143;&#x7D20;&#x8D77;&#x5E73;&#x884C;&#x63A2;&#x6D4B;&#xFF0C;&#x5230;&#x6307;&#x5B9A;&#x9009;&#x62E9;&#x6761;&#x4EF6;&#x7684;&#x5144;&#x5F1F;&#x5143;&#x7D20;&#x4E3A;&#x6B62;&#xFF0C;&#x4E14;&#x8BE5;&#x5143;&#x7D20; &#x62E5;&#x6709; &#x7B26;&#x5408;&#x6307;&#x5B9A;&#x9009;&#x62E9;&#x6761;&#x4EF6;&#x7684;&#x5144;&#x5F1F;&#x5143;&#x7D20;&#xFF0C;&#x5219;&#x9009;&#x4E2D;&#x540E;&#x9762;&#x6240;&#x6709;&#x6807;&#x7684;&#x5144;&#x5F1F;&#x5143;&#x7D20;</li>
+</ul>
+<h4 id="%E7%A4%BA%E4%BE%8B%EF%BC%9A">&#x793A;&#x4F8B;&#xFF1A;</h4>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-title">body</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">p</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span> <span class="hljs-attribute">id</span>=<span class="hljs-value">&quot;foo0&quot;</span>&gt;</span>0<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>1<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>2<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span> <span class="hljs-attribute">id</span>=<span class="hljs-value">&quot;foo3&quot;</span>&gt;</span>3<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>  <span class="hljs-comment">&lt;!-- red --&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>4<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span> <span class="hljs-attribute">id</span>=<span class="hljs-value">&quot;foo5&quot;</span>&gt;</span>5<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>6<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>7<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>8<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-title">p</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">script</span> <span class="hljs-attribute">src</span>=<span class="hljs-value">&quot;https://code.jquery.com/jquery-1.11.3.js&quot;</span>&gt;</span><span class="undefined"></span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">script</span>&gt;</span><span class="javascript">
+    $(<span class="hljs-string">&apos;#foo0&apos;</span>).nextUntil(<span class="hljs-string">&apos;#foo5&apos;</span>, <span class="hljs-string">&apos;#foo3&apos;</span>).css(<span class="hljs-string">&apos;background-color&apos;</span>, <span class="hljs-string">&apos;red&apos;</span>);
+  </span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-title">body</span>&gt;</span>
+</code></pre>
+</blockquote>
+<h3 id="-selector-prev">$(&apos;selector&apos;).prev()</h3>
+<blockquote>
+<h4 id="%E8%AF%B4%E6%98%8E%EF%BC%9A">&#x8BF4;&#x660E;&#xFF1A;</h4>
+<ul>
+<li>&#x5E73;&#x7EA7;&#x63A2;&#x6D4B;&#x65B9;&#x6CD5; 5</li>
+<li>&#x5982;&#x679C;&#x5B58;&#x5728;&#x67D0;&#x5143;&#x7D20;&#xFF0C;&#x4ECE;&#x672C;&#x5143;&#x7D20;&#x8D77;&#x5E73;&#x884C;&#x63A2;&#x6D4B;&#xFF0C;&#x4E14;&#x8BE5;&#x5143;&#x7D20; &#x62E5;&#x6709; &#x7B26;&#x5408;&#x6307;&#x5B9A;&#x9009;&#x62E9;&#x6761;&#x4EF6;&#x7684;&#x5144;&#x5F1F;&#x5143;&#x7D20;&#xFF0C;&#x5219;&#x9009;&#x4E2D;&#x4E0A;&#x4E00;&#x4E2A;&#x6807;&#x7684;&#x5144;&#x5F1F;&#x5143;&#x7D20;</li>
+</ul>
+<h4 id="%E7%A4%BA%E4%BE%8B%EF%BC%9A">&#x793A;&#x4F8B;&#xFF1A;</h4>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-title">body</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">p</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>0<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>1<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>  <span class="hljs-comment">&lt;!-- red --&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span> <span class="hljs-attribute">id</span>=<span class="hljs-value">&quot;foo&quot;</span>&gt;</span>2<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-title">p</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">p</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>3<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>4<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>5<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-title">p</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">p</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>6<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>7<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>8<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-title">p</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">script</span> <span class="hljs-attribute">src</span>=<span class="hljs-value">&quot;https://code.jquery.com/jquery-1.11.3.js&quot;</span>&gt;</span><span class="undefined"></span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">script</span>&gt;</span><span class="javascript">
+    $(<span class="hljs-string">&apos;#foo&apos;</span>).prev().css(<span class="hljs-string">&apos;background-color&apos;</span>, <span class="hljs-string">&apos;red&apos;</span>);
+  </span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-title">body</span>&gt;</span>
+</code></pre>
+</blockquote>
+<h3 id="-selector-prevall">$(&apos;selector&apos;).prevAll()</h3>
+<blockquote>
+<h4 id="%E8%AF%B4%E6%98%8E%EF%BC%9A">&#x8BF4;&#x660E;&#xFF1A;</h4>
+<ul>
+<li>&#x5E73;&#x7EA7;&#x63A2;&#x6D4B;&#x65B9;&#x6CD5; 6</li>
+<li>&#x5982;&#x679C;&#x5B58;&#x5728;&#x67D0;&#x5143;&#x7D20;&#xFF0C;&#x4ECE;&#x672C;&#x5143;&#x7D20;&#x8D77;&#x5E73;&#x884C;&#x63A2;&#x6D4B;&#xFF0C;&#x4E14;&#x8BE5;&#x5143;&#x7D20; &#x62E5;&#x6709; &#x7B26;&#x5408;&#x6307;&#x5B9A;&#x9009;&#x62E9;&#x6761;&#x4EF6;&#x7684;&#x5144;&#x5F1F;&#x5143;&#x7D20;&#xFF0C;&#x5219;&#x9009;&#x4E2D;&#x524D;&#x9762;&#x6240;&#x6709;&#x6807;&#x7684;&#x5144;&#x5F1F;&#x5143;&#x7D20;</li>
+</ul>
+<h4 id="%E7%A4%BA%E4%BE%8B%EF%BC%9A">&#x793A;&#x4F8B;&#xFF1A;</h4>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-title">body</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">p</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>0<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>  <span class="hljs-comment">&lt;!-- red --&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>1<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>  <span class="hljs-comment">&lt;!-- red --&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span> <span class="hljs-attribute">id</span>=<span class="hljs-value">&quot;foo&quot;</span>&gt;</span>2<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-title">p</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">p</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>3<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>4<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>5<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-title">p</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">p</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>6<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>7<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>8<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-title">p</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">script</span> <span class="hljs-attribute">src</span>=<span class="hljs-value">&quot;https://code.jquery.com/jquery-1.11.3.js&quot;</span>&gt;</span><span class="undefined"></span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">script</span>&gt;</span><span class="javascript">
+    $(<span class="hljs-string">&apos;#foo&apos;</span>).prevAll().css(<span class="hljs-string">&apos;background-color&apos;</span>, <span class="hljs-string">&apos;red&apos;</span>);
+  </span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-title">body</span>&gt;</span>
+</code></pre>
+</blockquote>
+<h3 id="-selector-prevuntil">$(&apos;selector&apos;).prevUntil()</h3>
+<blockquote>
+<h4 id="%E8%AF%B4%E6%98%8E%EF%BC%9A">&#x8BF4;&#x660E;&#xFF1A;</h4>
+<ul>
+<li>&#x5E73;&#x7EA7;&#x63A2;&#x6D4B;&#x65B9;&#x6CD5; 7</li>
+<li>&#x5982;&#x679C;&#x5B58;&#x5728;&#x67D0;&#x5143;&#x7D20;&#xFF0C;&#x4ECE;&#x672C;&#x5143;&#x7D20;&#x8D77;&#x5E73;&#x884C;&#x63A2;&#x6D4B;&#xFF0C;&#x5230;&#x6307;&#x5B9A;&#x9009;&#x62E9;&#x6761;&#x4EF6;&#x7684;&#x5144;&#x5F1F;&#x5143;&#x7D20;&#x4E3A;&#x6B62;&#xFF0C;&#x4E14;&#x8BE5;&#x5143;&#x7D20; &#x62E5;&#x6709; &#x7B26;&#x5408;&#x6307;&#x5B9A;&#x9009;&#x62E9;&#x6761;&#x4EF6;&#x7684;&#x5144;&#x5F1F;&#x5143;&#x7D20;&#xFF0C;&#x5219;&#x9009;&#x4E2D;&#x524D;&#x9762;&#x6240;&#x6709;&#x6807;&#x7684;&#x5144;&#x5F1F;&#x5143;&#x7D20;</li>
+</ul>
+<h4 id="%E7%A4%BA%E4%BE%8B%EF%BC%9A">&#x793A;&#x4F8B;&#xFF1A;</h4>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-title">body</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">p</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span> <span class="hljs-attribute">id</span>=<span class="hljs-value">&quot;foo0&quot;</span>&gt;</span>0<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>1<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>2<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span> <span class="hljs-attribute">id</span>=<span class="hljs-value">&quot;foo3&quot;</span>&gt;</span>3<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>  <span class="hljs-comment">&lt;!-- red --&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>4<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span> <span class="hljs-attribute">id</span>=<span class="hljs-value">&quot;foo5&quot;</span>&gt;</span>5<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>6<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>7<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>8<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-title">p</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">script</span> <span class="hljs-attribute">src</span>=<span class="hljs-value">&quot;https://code.jquery.com/jquery-1.11.3.js&quot;</span>&gt;</span><span class="undefined"></span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">script</span>&gt;</span><span class="javascript">
+    $(<span class="hljs-string">&apos;#foo5&apos;</span>).prevUntil(<span class="hljs-string">&apos;#foo0&apos;</span>, <span class="hljs-string">&apos;#foo3&apos;</span>).css(<span class="hljs-string">&apos;background-color&apos;</span>, <span class="hljs-string">&apos;red&apos;</span>);
+  </span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-title">body</span>&gt;</span>
+</code></pre>
+</blockquote>
+<h3 id="-selector-children">$(&apos;selector&apos;).children()</h3>
+<blockquote>
+<h4 id="%E8%AF%B4%E6%98%8E%EF%BC%9A">&#x8BF4;&#x660E;&#xFF1A;</h4>
+<ul>
+<li>&#x5B50;&#x7EA7;&#x63A2;&#x6D4B;&#x65B9;&#x6CD5; 1</li>
+<li>&#x5982;&#x679C;&#x5B58;&#x5728;&#x67D0;&#x5143;&#x7D20;&#xFF0C;&#x4ECE;&#x672C;&#x5143;&#x7D20;&#x8D77;&#x5411;&#x4E0B;&#x63A2;&#x6D4B;&#xFF0C;&#x4E14;&#x8BE5;&#x5143;&#x7D20; &#x62E5;&#x6709; &#x7B26;&#x5408;&#x6307;&#x5B9A;&#x9009;&#x62E9;&#x6761;&#x4EF6;&#x7684;&#x5B50;&#x5143;&#x7D20;&#xFF0C;&#x5219;&#x9009;&#x4E2D;&#x6240;&#x6709;&#x6807;&#x7684;&#x5B50;&#x5143;&#x7D20;</li>
+</ul>
+<h4 id="%E7%A4%BA%E4%BE%8B%EF%BC%9A">&#x793A;&#x4F8B;&#xFF1A;</h4>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-title">body</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">id</span>=<span class="hljs-value">&quot;foo&quot;</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">p</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>0<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>  <span class="hljs-comment">&lt;!-- red --&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>1<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>  <span class="hljs-comment">&lt;!-- red --&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>2<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>  <span class="hljs-comment">&lt;!-- red --&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-title">p</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">p</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>3<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>4<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>5<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-title">p</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">p</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>6<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>7<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>8<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-title">p</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">script</span> <span class="hljs-attribute">src</span>=<span class="hljs-value">&quot;https://code.jquery.com/jquery-1.11.3.js&quot;</span>&gt;</span><span class="undefined"></span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">script</span>&gt;</span><span class="javascript">
+    $(<span class="hljs-string">&apos;#foo p:first&apos;</span>).children().css(<span class="hljs-string">&apos;background-color&apos;</span>, <span class="hljs-string">&apos;red&apos;</span>);
+  </span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-title">body</span>&gt;</span>
+</code></pre>
+</blockquote>
+<h3 id="-selector-find">$(&apos;selector&apos;).find()</h3>
+<blockquote>
+<h4 id="%E8%AF%B4%E6%98%8E%EF%BC%9A">&#x8BF4;&#x660E;&#xFF1A;</h4>
+<ul>
+<li>&#x5B50;&#x7EA7;&#x63A2;&#x6D4B;&#x65B9;&#x6CD5; 2</li>
+<li>&#x5982;&#x679C;&#x5B58;&#x5728;&#x67D0;&#x5143;&#x7D20;&#xFF0C;&#x4ECE;&#x672C;&#x5143;&#x7D20;&#x8D77;&#x5411;&#x4E0B;&#x63A2;&#x6D4B;&#xFF0C;&#x4E14;&#x8BE5;&#x5143;&#x7D20; &#x62E5;&#x6709; &#x7B26;&#x5408;&#x6307;&#x5B9A;&#x9009;&#x62E9;&#x6761;&#x4EF6;&#x7684;&#x540E;&#x4EE3;&#x5143;&#x7D20;&#xFF0C;&#x5219;&#x9009;&#x4E2D;&#x6240;&#x6709;&#x6807;&#x7684;&#x540E;&#x4EE3;&#x5143;&#x7D20;</li>
+</ul>
+<h4 id="%E7%A4%BA%E4%BE%8B%EF%BC%9A">&#x793A;&#x4F8B;&#xFF1A;</h4>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-title">body</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">id</span>=<span class="hljs-value">&quot;foo1&quot;</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">p</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>0<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>1<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>2<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-title">p</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">p</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>3<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>4<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>5<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-title">p</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">p</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span> <span class="hljs-attribute">id</span>=<span class="hljs-value">&quot;foo2&quot;</span>&gt;</span>6<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>  <span class="hljs-comment">&lt;!-- red --&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>7<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>8<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-title">p</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">script</span> <span class="hljs-attribute">src</span>=<span class="hljs-value">&quot;https://code.jquery.com/jquery-1.11.3.js&quot;</span>&gt;</span><span class="undefined"></span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">script</span>&gt;</span><span class="javascript">
+    $(<span class="hljs-string">&apos;#foo1&apos;</span>).find(<span class="hljs-string">&apos;#foo2&apos;</span>).css(<span class="hljs-string">&apos;background-color&apos;</span>, <span class="hljs-string">&apos;red&apos;</span>);
+  </span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-title">body</span>&gt;</span>
+</code></pre>
+</blockquote>
+</blockquote>
+<h2 id="%E7%B1%BB%E5%BA%93-jquery-node-%E9%9B%86%E5%90%88%E6%96%B9%E6%B3%95">&#x7C7B;&#x5E93; jQuery - Node - &#x96C6;&#x5408;&#x65B9;&#x6CD5;</h2>
+<blockquote>
+<h3 id="-selector-add">$(&apos;selector&apos;).add()</h3>
+<blockquote>
+<h4 id="%E8%AF%B4%E6%98%8E%EF%BC%9A">&#x8BF4;&#x660E;&#xFF1A;</h4>
+<ul>
+<li>&#x96C6;&#x5408;&#x65B9;&#x6CD5; 1</li>
+<li>&#x5982;&#x679C;&#x5B58;&#x5728;&#x67D0;&#x5143;&#x7D20;&#x96C6;&#x5408;&#xFF0C;&#x4E14;&#x5B58;&#x5728;&#x53E6;&#x4E00;&#x4E2A;&#x5143;&#x7D20;&#x96C6;&#x5408;&#xFF0C;&#x5219;&#x5C06;&#x4E24;&#x4E2A;&#x5143;&#x7D20;&#x96C6;&#x5408;&#x5408;&#x5E76;&#x6210;&#x65B0;&#x7684;&#x5143;&#x7D20;&#x96C6;&#x5408;</li>
+</ul>
+<h4 id="%E7%A4%BA%E4%BE%8B%EF%BC%9A">&#x793A;&#x4F8B;&#xFF1A;</h4>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-title">body</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">p</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>0<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span> <span class="hljs-attribute">id</span>=<span class="hljs-value">&quot;foo1&quot;</span>&gt;</span>1<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>  <span class="hljs-comment">&lt;!-- red bg:yellow --&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>2<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-title">p</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">p</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>3<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>4<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>5<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-title">p</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">p</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span> <span class="hljs-attribute">id</span>=<span class="hljs-value">&quot;foo2&quot;</span>&gt;</span>6<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>  <span class="hljs-comment">&lt;!-- bg:yellow --&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>7<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>8<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-title">p</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">script</span> <span class="hljs-attribute">src</span>=<span class="hljs-value">&quot;https://code.jquery.com/jquery-1.11.3.js&quot;</span>&gt;</span><span class="undefined"></span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">script</span>&gt;</span><span class="javascript">
+    $(<span class="hljs-string">&apos;#foo1&apos;</span>).css(<span class="hljs-string">&apos;color&apos;</span>, <span class="hljs-string">&apos;red&apos;</span>).add(<span class="hljs-string">&apos;#foo2&apos;</span>).css(<span class="hljs-string">&apos;background-color&apos;</span>, <span class="hljs-string">&apos;yellow&apos;</span>);
+  </span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-title">body</span>&gt;</span>
+</code></pre>
+</blockquote>
+<h3 id="-selector-addback">$(&apos;selector&apos;).addBack()</h3>
+<blockquote>
+<h4 id="%E8%AF%B4%E6%98%8E%EF%BC%9A">&#x8BF4;&#x660E;&#xFF1A;</h4>
+<ul>
+<li>&#x96C6;&#x5408;&#x65B9;&#x6CD5; 2</li>
+<li>&#x5982;&#x679C;&#x5B58;&#x5728;&#x67D0;&#x5143;&#x7D20;&#x96C6;&#x5408;&#xFF0C;&#x4E14;&#x5B58;&#x5728;&#x4E0A;&#x4E00;&#x4E2A;&#x5143;&#x7D20;&#x96C6;&#x5408;&#xFF0C;&#x5219;&#x5C06;&#x4E24;&#x4E2A;&#x5143;&#x7D20;&#x96C6;&#x5408;&#x5408;&#x5E76;&#x6210;&#x65B0;&#x7684;&#x5143;&#x7D20;&#x96C6;&#x5408;</li>
+</ul>
+<h4 id="%E7%A4%BA%E4%BE%8B%EF%BC%9A">&#x793A;&#x4F8B;&#xFF1A;</h4>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-title">body</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">p</span>&gt;</span>  <span class="hljs-comment">&lt;!-- bg:yellow --&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>0<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span> <span class="hljs-attribute">id</span>=<span class="hljs-value">&quot;foo1&quot;</span>&gt;</span>1<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>  <span class="hljs-comment">&lt;!-- red --&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>2<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-title">p</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">p</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>3<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>4<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>5<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-title">p</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">p</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>6<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>7<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>8<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-title">p</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">script</span> <span class="hljs-attribute">src</span>=<span class="hljs-value">&quot;https://code.jquery.com/jquery-1.11.3.js&quot;</span>&gt;</span><span class="undefined"></span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">script</span>&gt;</span><span class="javascript">
+    $(<span class="hljs-string">&apos;p:first&apos;</span>).find(<span class="hljs-string">&apos;#foo1&apos;</span>).css(<span class="hljs-string">&apos;color&apos;</span>, <span class="hljs-string">&apos;red&apos;</span>).addBack().css(<span class="hljs-string">&apos;background-color&apos;</span>, <span class="hljs-string">&apos;yellow&apos;</span>);
+  </span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-title">body</span>&gt;</span>
+</code></pre>
+</blockquote>
+<h3 id="-selector-end">$(&apos;selector&apos;).end()</h3>
+<blockquote>
+<h4 id="%E8%AF%B4%E6%98%8E%EF%BC%9A">&#x8BF4;&#x660E;&#xFF1A;</h4>
+<ul>
+<li>&#x96C6;&#x5408;&#x65B9;&#x6CD5; 3</li>
+<li>&#x5982;&#x679C;&#x5B58;&#x5728;&#x67D0;&#x5143;&#x7D20;&#x96C6;&#x5408;&#xFF0C;&#x4E14;&#x5B58;&#x5728;&#x4E0A;&#x4E00;&#x4E2A;&#x5143;&#x7D20;&#x96C6;&#x5408;&#xFF0C;&#x5219;&#x5C06;&#x5F53;&#x524D;&#x5143;&#x7D20;&#x96C6;&#x5408;&#x8FD8;&#x539F;&#x56DE;&#x9000;&#x4E3A;&#x4E0A;&#x4E00;&#x4E2A;&#x5143;&#x7D20;&#x96C6;&#x5408;</li>
+</ul>
+<h4 id="%E7%A4%BA%E4%BE%8B%EF%BC%9A">&#x793A;&#x4F8B;&#xFF1A;</h4>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-title">body</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">p</span>&gt;</span>  <span class="hljs-comment">&lt;!-- red bg:yellow --&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>0<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>1<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>2<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-title">p</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">p</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>3<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>4<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>5<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-title">p</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">p</span>&gt;</span>  <span class="hljs-comment">&lt;!-- red --&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>6<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>7<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>8<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-title">p</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">script</span> <span class="hljs-attribute">src</span>=<span class="hljs-value">&quot;https://code.jquery.com/jquery-1.11.3.js&quot;</span>&gt;</span><span class="undefined"></span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">script</span>&gt;</span><span class="javascript">
+    $(<span class="hljs-string">&apos;p:first&apos;</span>).add(<span class="hljs-string">&apos;p:last&apos;</span>).css(<span class="hljs-string">&apos;color&apos;</span>, <span class="hljs-string">&apos;red&apos;</span>).end().css(<span class="hljs-string">&apos;background-color&apos;</span>, <span class="hljs-string">&apos;yellow&apos;</span>);
+  </span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-title">body</span>&gt;</span>
+</code></pre>
+</blockquote>
+</blockquote>
+<h2 id="%E7%B1%BB%E5%BA%93-jquery-node-%E9%81%8D%E5%8E%86%E6%96%B9%E6%B3%95">&#x7C7B;&#x5E93; jQuery - Node - &#x904D;&#x5386;&#x65B9;&#x6CD5;</h2>
+<blockquote>
+<h3 id="-selector-each">$(&apos;selector&apos;).each()</h3>
+<blockquote>
+<h4 id="%E8%AF%B4%E6%98%8E%EF%BC%9A">&#x8BF4;&#x660E;&#xFF1A;</h4>
+<ul>
+<li>&#x904D;&#x5386;&#x65B9;&#x6CD5; 1</li>
+<li>&#x5982;&#x679C;&#x5B58;&#x5728;&#x67D0;&#x5143;&#x7D20;&#x96C6;&#x5408;&#xFF0C;&#x5219;&#x904D;&#x5386;&#x6BCF;&#x4E00;&#x4E2A;&#x7B26;&#x5408;&#x9009;&#x62E9;&#x6307;&#x5B9A;&#x9009;&#x62E9;&#x6761;&#x4EF6;&#x7684;&#x5143;&#x7D20;</li>
+<li>each() &#x65B9;&#x6CD5;&#x4E3B;&#x8981;&#x7528;&#x4E8E;&#x904D;&#x5386;jQuery&#x5BF9;&#x8C61;</li>
+<li>each() &#x65B9;&#x6CD5;&#x8FD4;&#x56DE;&#x7684;&#x662F;&#x539F;&#x6765;&#x7684;&#x6570;&#x7EC4;&#xFF0C;&#x5E76;&#x4E0D;&#x4F1A;&#x65B0;&#x521B;&#x5EFA;&#x4E00;&#x4E2A;&#x6570;&#x7EC4;</li>
+</ul>
+<h4 id="%E7%A4%BA%E4%BE%8B%EF%BC%9A">&#x793A;&#x4F8B;&#xFF1A;</h4>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-title">body</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">p</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>0<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>1<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>2<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-title">p</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">p</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>3<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>4<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>5<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-title">p</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">p</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>6<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>7<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>8<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-title">p</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">script</span> <span class="hljs-attribute">src</span>=<span class="hljs-value">&quot;https://code.jquery.com/jquery-1.11.3.js&quot;</span>&gt;</span><span class="undefined"></span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">script</span>&gt;</span><span class="javascript">
+    <span class="hljs-keyword">var</span> test = [];
+    $(<span class="hljs-string">&apos;div p:eq(1) span&apos;</span>).each(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>)</span>{
+      test.push($(<span class="hljs-keyword">this</span>).text());
+    });
+    <span class="hljs-built_in">console</span>.log(test); <span class="hljs-comment">// [&quot;3&quot;, &quot;4&quot;, &quot;5&quot;]</span>
+  </span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-title">body</span>&gt;</span>
+</code></pre>
+</blockquote>
+<h3 id="-selector-map">$(&apos;selector&apos;).map()</h3>
+<blockquote>
+<h4 id="%E8%AF%B4%E6%98%8E%EF%BC%9A">&#x8BF4;&#x660E;&#xFF1A;</h4>
+<ul>
+<li>&#x904D;&#x5386;&#x65B9;&#x6CD5; 2</li>
+<li>&#x5982;&#x679C;&#x5B58;&#x5728;&#x67D0;&#x5143;&#x7D20;&#x96C6;&#x5408;&#xFF0C;&#x5219;&#x904D;&#x5386;&#x6BCF;&#x4E00;&#x4E2A;&#x7B26;&#x5408;&#x9009;&#x62E9;&#x6307;&#x5B9A;&#x9009;&#x62E9;&#x6761;&#x4EF6;&#x7684;&#x5143;&#x7D20;</li>
+<li>map() &#x65B9;&#x6CD5;&#x4E3B;&#x8981;&#x7528;&#x4E8E;&#x904D;&#x5386;JS&#x539F;&#x751F;&#x6570;&#x7EC4;&#x6216;&#x5BF9;&#x8C61;</li>
+<li>map() &#x65B9;&#x6CD5;&#x4F1A;&#x8FD4;&#x56DE;&#x4E00;&#x4E2A;&#x65B0;&#x7684;&#x6570;&#x7EC4;</li>
+<li>&#x5982;&#x679C;&#x5728;&#x6CA1;&#x6709;&#x5FC5;&#x8981;&#x7684;&#x60C5;&#x51B5;&#x4E0B;&#x4F7F;&#x7528;map&#xFF0C;&#x5219;&#x6709;&#x53EF;&#x80FD;&#x9020;&#x6210;&#x5185;&#x5B58;&#x6D6A;&#x8D39;</li>
+</ul>
+<h4 id="%E7%A4%BA%E4%BE%8B%EF%BC%9A">&#x793A;&#x4F8B;&#xFF1A;</h4>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-title">body</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">p</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>0<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>1<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>2<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-title">p</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">p</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>3<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>4<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>5<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-title">p</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">p</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>6<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>7<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>8<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-title">p</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">script</span> <span class="hljs-attribute">src</span>=<span class="hljs-value">&quot;https://code.jquery.com/jquery-1.11.3.js&quot;</span>&gt;</span><span class="undefined"></span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">script</span>&gt;</span><span class="javascript">
+    <span class="hljs-keyword">var</span> test = $(<span class="hljs-string">&apos;div p:eq(1) span&apos;</span>).map(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>)</span>{
+              <span class="hljs-keyword">return</span> $(<span class="hljs-keyword">this</span>).text();
+            }).get().join(<span class="hljs-string">&quot;, &quot;</span>);
+    <span class="hljs-built_in">console</span>.log(test); <span class="hljs-comment">// &quot;3, 4, 5&quot;</span>
+  </span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-title">body</span>&gt;</span>
+</code></pre>
+</blockquote>
+</blockquote>
+<h2 id="%E7%B1%BB%E5%BA%93-jquery-element-%E5%86%85%E5%AE%B9%E6%96%B9%E6%B3%95">&#x7C7B;&#x5E93; jQuery - Element - &#x5185;&#x5BB9;&#x65B9;&#x6CD5;</h2>
+<blockquote>
+<h3 id="-foo-html">$(&apos;#foo&apos;).html()</h3>
+<blockquote>
+<h4 id="%E8%AF%B4%E6%98%8E%EF%BC%9A">&#x8BF4;&#x660E;&#xFF1A;</h4>
+<ul>
+<li>html() &#x65B9;&#x6CD5;&#x8FD4;&#x56DE;&#x6216;&#x8BBE;&#x7F6E;&#x88AB;&#x9009;&#x5143;&#x7D20;&#x7684;&#x5185;&#x5BB9;</li>
+</ul>
+<h4 id="%E7%A4%BA%E4%BE%8B%EF%BC%9A">&#x793A;&#x4F8B;&#xFF1A;</h4>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-title">body</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">id</span>=<span class="hljs-value">&quot;foo&quot;</span>&gt;</span>hello world<span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">script</span> <span class="hljs-attribute">src</span>=<span class="hljs-value">&quot;https://code.jquery.com/jquery-1.11.3.js&quot;</span>&gt;</span><span class="undefined"></span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">script</span>&gt;</span><span class="javascript">
+    $(<span class="hljs-string">&apos;#foo&apos;</span>).html(); <span class="hljs-comment">// &apos;hello world&apos;</span>
+    $(<span class="hljs-string">&apos;#foo&apos;</span>).html(<span class="hljs-string">&apos;&lt;p&gt;hello javascript&lt;/p&gt;&apos;</span>);
+  </span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-title">body</span>&gt;</span>
+</code></pre>
+</blockquote>
+<h3 id="-foo-clone">$(&apos;#foo&apos;).clone()</h3>
+<blockquote>
+<h4 id="%E8%AF%B4%E6%98%8E%EF%BC%9A">&#x8BF4;&#x660E;&#xFF1A;</h4>
+<ul>
+<li>clone() &#x65B9;&#x6CD5;&#x751F;&#x6210;&#x88AB;&#x9009;&#x5143;&#x7D20;&#x7684;&#x526F;&#x672C;&#xFF0C;&#x5305;&#x542B;&#x5B50;&#x8282;&#x70B9;&#x3001;&#x6587;&#x672C;&#x548C;&#x5C5E;&#x6027;</li>
+</ul>
+<h4 id="%E7%A4%BA%E4%BE%8B%EF%BC%9A">&#x793A;&#x4F8B;&#xFF1A;</h4>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-title">body</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">id</span>=<span class="hljs-value">&quot;foo&quot;</span>&gt;</span>hello world<span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">script</span> <span class="hljs-attribute">src</span>=<span class="hljs-value">&quot;https://code.jquery.com/jquery-1.11.3.js&quot;</span>&gt;</span><span class="undefined"></span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">script</span>&gt;</span><span class="javascript">
+    <span class="hljs-keyword">var</span> clone = $(<span class="hljs-string">&apos;#foo&apos;</span>).clone();
+    $(<span class="hljs-string">&apos;#foo&apos;</span>).after(clone);
+  </span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-title">body</span>&gt;</span>
+</code></pre>
+</blockquote>
+<h3 id="-foo-empty">$(&apos;#foo&apos;).empty()</h3>
+<blockquote>
+<h4 id="%E8%AF%B4%E6%98%8E%EF%BC%9A">&#x8BF4;&#x660E;&#xFF1A;</h4>
+<ul>
+<li>empty() &#x65B9;&#x6CD5;&#x4ECE;&#x88AB;&#x9009;&#x5143;&#x7D20;&#x79FB;&#x9664;&#x6240;&#x6709;&#x5185;&#x5BB9;&#xFF0C;&#x5305;&#x62EC;&#x6240;&#x6709;&#x6587;&#x672C;&#x548C;&#x5B50;&#x8282;&#x70B9;</li>
+</ul>
+<h4 id="%E7%A4%BA%E4%BE%8B%EF%BC%9A">&#x793A;&#x4F8B;&#xFF1A;</h4>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-title">body</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">id</span>=<span class="hljs-value">&quot;foo&quot;</span>&gt;</span>hello world<span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">script</span> <span class="hljs-attribute">src</span>=<span class="hljs-value">&quot;https://code.jquery.com/jquery-1.11.3.js&quot;</span>&gt;</span><span class="undefined"></span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">script</span>&gt;</span><span class="javascript">
+    $(<span class="hljs-string">&apos;#foo&apos;</span>).empty();
+  </span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-title">body</span>&gt;</span>
+</code></pre>
+</blockquote>
+<h3 id="-foo-remove">$(&apos;#foo&apos;).remove()</h3>
+<blockquote>
+<h4 id="%E8%AF%B4%E6%98%8E%EF%BC%9A">&#x8BF4;&#x660E;&#xFF1A;</h4>
+<ul>
+<li>remove() &#x65B9;&#x6CD5;&#x79FB;&#x9664;&#x88AB;&#x9009;&#x5143;&#x7D20;&#xFF0C;&#x5305;&#x62EC;&#x6240;&#x6709;&#x6587;&#x672C;&#x548C;&#x5B50;&#x8282;&#x70B9;</li>
+<li>&#x8BE5;&#x65B9;&#x6CD5;&#x4E0D;&#x4F1A;&#x628A;&#x5339;&#x914D;&#x7684;&#x5143;&#x7D20;&#x4ECE; jQuery &#x5BF9;&#x8C61;&#x4E2D;&#x5220;&#x9664;&#xFF0C;&#x56E0;&#x800C;&#x53EF;&#x4EE5;&#x5728;&#x5C06;&#x6765;&#x518D;&#x4F7F;&#x7528;&#x8FD9;&#x4E9B;&#x5339;&#x914D;&#x7684;&#x5143;&#x7D20;</li>
+<li>&#x4F46;&#x9664;&#x4E86;&#x8FD9;&#x4E2A;&#x5143;&#x7D20;&#x672C;&#x8EAB;&#x5F97;&#x4EE5;&#x4FDD;&#x7559;&#x4E4B;&#x5916;&#xFF0C;remove() &#x4E0D;&#x4F1A;&#x4FDD;&#x7559;&#x5143;&#x7D20;&#x7684; jQuery &#x6570;&#x636E;&#xFF08;&#x5176;&#x4ED6;&#x7684;&#x6BD4;&#x5982;&#x7ED1;&#x5B9A;&#x7684;&#x4E8B;&#x4EF6;&#x3001;&#x9644;&#x52A0;&#x7684;&#x6570;&#x636E;&#x7B49;&#x90FD;&#x4F1A;&#x88AB;&#x79FB;&#x9664;&#xFF0C;&#x8FD9;&#x4E00;&#x70B9;&#x4E0E; detach() &#x4E0D;&#x540C;&#xFF09;</li>
+</ul>
+<h4 id="%E7%A4%BA%E4%BE%8B%EF%BC%9A">&#x793A;&#x4F8B;&#xFF1A;</h4>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-title">body</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">id</span>=<span class="hljs-value">&quot;sign1&quot;</span> <span class="hljs-attribute">style</span>=<span class="hljs-value">&quot;color: red&quot;</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">id</span>=<span class="hljs-value">&quot;foo&quot;</span>&gt;</span>hello world<span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">id</span>=<span class="hljs-value">&quot;sign2&quot;</span> <span class="hljs-attribute">style</span>=<span class="hljs-value">&quot;color: blue&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">script</span> <span class="hljs-attribute">src</span>=<span class="hljs-value">&quot;https://code.jquery.com/jquery-1.11.3.js&quot;</span>&gt;</span><span class="undefined"></span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">script</span>&gt;</span><span class="javascript">
+    <span class="hljs-comment">// &#x7ED1;&#x5B9A;&#x70B9;&#x51FB;&#x4E8B;&#x4EF6;&#xFF0C;&#x4F7F;&#x7528;remove&#x65B9;&#x6CD5;&#x540E;&#xFF0C;&#x7ED1;&#x5B9A;&#x7684;&#x4E8B;&#x4EF6;&#x5C06;&#x65E0;&#x6548;</span>
+    $(<span class="hljs-string">&apos;#foo&apos;</span>).bind(<span class="hljs-string">&apos;click&apos;</span>, <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>)</span>{
+      <span class="hljs-built_in">console</span>.log($(<span class="hljs-keyword">this</span>).html());
+    });
+    <span class="hljs-comment">// &#x4ECE;sign1&#x4E2D;&#x79FB;&#x9664;&#x53C8;&#x6062;&#x590D;&#x5143;&#x7D20;&#x5230;sign2</span>
+    <span class="hljs-keyword">var</span> foo = $(<span class="hljs-string">&apos;#foo&apos;</span>).remove();
+    $(<span class="hljs-string">&apos;#sign2&apos;</span>).append(foo);
+  </span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-title">body</span>&gt;</span>
+</code></pre>
+</blockquote>
+<h3 id="-foo-detach">$(&apos;#foo&apos;).detach()</h3>
+<blockquote>
+<h4 id="%E8%AF%B4%E6%98%8E%EF%BC%9A">&#x8BF4;&#x660E;&#xFF1A;</h4>
+<ul>
+<li>detach() &#x65B9;&#x6CD5;&#x79FB;&#x9664;&#x88AB;&#x9009;&#x5143;&#x7D20;&#xFF0C;&#x5305;&#x62EC;&#x6240;&#x6709;&#x6587;&#x672C;&#x548C;&#x5B50;&#x8282;&#x70B9;</li>
+<li>&#x8FD9;&#x4E2A;&#x65B9;&#x6CD5;&#x4F1A;&#x4FDD;&#x7559; jQuery &#x5BF9;&#x8C61;&#x4E2D;&#x7684;&#x5339;&#x914D;&#x7684;&#x5143;&#x7D20;&#xFF0C;&#x56E0;&#x800C;&#x53EF;&#x4EE5;&#x5728;&#x5C06;&#x6765;&#x518D;&#x4F7F;&#x7528;&#x8FD9;&#x4E9B;&#x5339;&#x914D;&#x7684;&#x5143;&#x7D20;</li>
+<li>detach() &#x4F1A;&#x4FDD;&#x7559;&#x6240;&#x6709;&#x7ED1;&#x5B9A;&#x7684;&#x4E8B;&#x4EF6;&#x3001;&#x9644;&#x52A0;&#x7684;&#x6570;&#x636E;&#xFF0C;&#x8FD9;&#x4E00;&#x70B9;&#x4E0E; remove() &#x4E0D;&#x540C;</li>
+</ul>
+<h4 id="%E7%A4%BA%E4%BE%8B%EF%BC%9A">&#x793A;&#x4F8B;&#xFF1A;</h4>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-title">body</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">id</span>=<span class="hljs-value">&quot;sign1&quot;</span> <span class="hljs-attribute">style</span>=<span class="hljs-value">&quot;color: red&quot;</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">id</span>=<span class="hljs-value">&quot;foo&quot;</span>&gt;</span>hello world<span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">id</span>=<span class="hljs-value">&quot;sign2&quot;</span> <span class="hljs-attribute">style</span>=<span class="hljs-value">&quot;color: blue&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">script</span> <span class="hljs-attribute">src</span>=<span class="hljs-value">&quot;https://code.jquery.com/jquery-1.11.3.js&quot;</span>&gt;</span><span class="undefined"></span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">script</span>&gt;</span><span class="javascript">
+    <span class="hljs-comment">// &#x7ED1;&#x5B9A;&#x70B9;&#x51FB;&#x4E8B;&#x4EF6;&#xFF0C;&#x4F7F;&#x7528;detach&#x65B9;&#x6CD5;&#x540E;&#xFF0C;&#x7ED1;&#x5B9A;&#x7684;&#x4E8B;&#x4EF6;&#x4F9D;&#x7136;&#x6709;&#x6548;</span>
+    $(<span class="hljs-string">&apos;#foo&apos;</span>).bind(<span class="hljs-string">&apos;click&apos;</span>, <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>)</span>{
+      <span class="hljs-built_in">console</span>.log($(<span class="hljs-keyword">this</span>).html());
+    });
+    <span class="hljs-comment">// &#x4ECE;sign1&#x4E2D;&#x79FB;&#x9664;&#x53C8;&#x6062;&#x590D;&#x5143;&#x7D20;&#x5230;sign2</span>
+    <span class="hljs-keyword">var</span> foo = $(<span class="hljs-string">&apos;#foo&apos;</span>).detach();
+    $(<span class="hljs-string">&apos;#sign2&apos;</span>).append(foo);
+  </span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-title">body</span>&gt;</span>
+</code></pre>
+</blockquote>
+<h3 id="-foo-after">$(&apos;#foo&apos;).after()</h3>
+<blockquote>
+<h4 id="%E8%AF%B4%E6%98%8E%EF%BC%9A">&#x8BF4;&#x660E;&#xFF1A;</h4>
+<ul>
+<li>after() &#x65B9;&#x6CD5;&#x5728;&#x88AB;&#x9009;&#x5143;&#x7D20;&#x5916;&#x90E8;&#x540E;&#x63D2;&#x5165;&#x6307;&#x5B9A;&#x7684;&#x5185;&#x5BB9;</li>
+<li>&#x4E0D;&#x63A8;&#x8350;&#xFF1A;<code>$(&apos;html&apos;).insertAfter(&apos;#foo&apos;)</code></li>
+</ul>
+<h4 id="%E7%A4%BA%E4%BE%8B%EF%BC%9A">&#x793A;&#x4F8B;&#xFF1A;</h4>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-title">body</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">id</span>=<span class="hljs-value">&quot;foo&quot;</span>&gt;</span>hello<span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">script</span> <span class="hljs-attribute">src</span>=<span class="hljs-value">&quot;https://code.jquery.com/jquery-1.11.3.js&quot;</span>&gt;</span><span class="undefined"></span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">script</span>&gt;</span><span class="javascript">
+    $(<span class="hljs-string">&apos;#foo&apos;</span>).after(<span class="hljs-string">&apos;&lt;span&gt; world&lt;/span&gt;&apos;</span>);
+  </span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-title">body</span>&gt;</span>
+</code></pre>
+</blockquote>
+<h3 id="-foo-before">$(&apos;#foo&apos;).before()</h3>
+<blockquote>
+<h4 id="%E8%AF%B4%E6%98%8E%EF%BC%9A">&#x8BF4;&#x660E;&#xFF1A;</h4>
+<ul>
+<li>before() &#x65B9;&#x6CD5;&#x5728;&#x88AB;&#x9009;&#x5143;&#x7D20;&#x5916;&#x90E8;&#x524D;&#x63D2;&#x5165;&#x6307;&#x5B9A;&#x7684;&#x5185;&#x5BB9;</li>
+<li>&#x4E0D;&#x63A8;&#x8350;&#xFF1A;<code>$(&apos;html&apos;).insertBefore(&apos;#foo&apos;)</code></li>
+</ul>
+<h4 id="%E7%A4%BA%E4%BE%8B%EF%BC%9A">&#x793A;&#x4F8B;&#xFF1A;</h4>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-title">body</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">id</span>=<span class="hljs-value">&quot;foo&quot;</span>&gt;</span>world<span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">script</span> <span class="hljs-attribute">src</span>=<span class="hljs-value">&quot;https://code.jquery.com/jquery-1.11.3.js&quot;</span>&gt;</span><span class="undefined"></span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">script</span>&gt;</span><span class="javascript">
+    $(<span class="hljs-string">&apos;#foo&apos;</span>).before(<span class="hljs-string">&apos;&lt;span&gt;hello &lt;/span&gt;&apos;</span>);
+  </span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-title">body</span>&gt;</span>
+</code></pre>
+</blockquote>
+<h3 id="-foo-append">$(&apos;#foo&apos;).append()</h3>
+<blockquote>
+<h4 id="%E8%AF%B4%E6%98%8E%EF%BC%9A">&#x8BF4;&#x660E;&#xFF1A;</h4>
+<ul>
+<li>append() &#x65B9;&#x6CD5;&#x5728;&#x88AB;&#x9009;&#x5143;&#x7D20;&#x5185;&#x90E8;&#x540E;&#x63D2;&#x5165;&#x6307;&#x5B9A;&#x7684;&#x5185;&#x5BB9;</li>
+<li>&#x4E0D;&#x63A8;&#x8350;&#xFF1A;<code>$(&apos;html&apos;).appendTo(&apos;#foo&apos;)</code></li>
+</ul>
+<h4 id="%E7%A4%BA%E4%BE%8B%EF%BC%9A">&#x793A;&#x4F8B;&#xFF1A;</h4>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-title">body</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">id</span>=<span class="hljs-value">&quot;foo&quot;</span>&gt;</span>hello<span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">script</span> <span class="hljs-attribute">src</span>=<span class="hljs-value">&quot;https://code.jquery.com/jquery-1.11.3.js&quot;</span>&gt;</span><span class="undefined"></span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">script</span>&gt;</span><span class="javascript">
+    $(<span class="hljs-string">&apos;#foo&apos;</span>).append(<span class="hljs-string">&apos;&lt;span&gt; world&lt;/span&gt;&apos;</span>);
+  </span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-title">body</span>&gt;</span>
+</code></pre>
+</blockquote>
+<h3 id="-foo-prepend">$(&apos;#foo&apos;).prepend()</h3>
+<blockquote>
+<h4 id="%E8%AF%B4%E6%98%8E%EF%BC%9A">&#x8BF4;&#x660E;&#xFF1A;</h4>
+<ul>
+<li>prepend() &#x65B9;&#x6CD5;&#x5728;&#x88AB;&#x9009;&#x5143;&#x7D20;&#x5185;&#x90E8;&#x524D;&#x63D2;&#x5165;&#x6307;&#x5B9A;&#x7684;&#x5185;&#x5BB9;</li>
+<li>&#x4E0D;&#x63A8;&#x8350;&#xFF1A;<code>$(&apos;html&apos;).prependTo(&apos;#foo&apos;)</code></li>
+</ul>
+<h4 id="%E7%A4%BA%E4%BE%8B%EF%BC%9A">&#x793A;&#x4F8B;&#xFF1A;</h4>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-title">body</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">id</span>=<span class="hljs-value">&quot;foo&quot;</span>&gt;</span>world<span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">script</span> <span class="hljs-attribute">src</span>=<span class="hljs-value">&quot;https://code.jquery.com/jquery-1.11.3.js&quot;</span>&gt;</span><span class="undefined"></span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">script</span>&gt;</span><span class="javascript">
+    $(<span class="hljs-string">&apos;#foo&apos;</span>).prepend(<span class="hljs-string">&apos;&lt;span&gt;hello &lt;/span&gt;&apos;</span>);
+  </span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-title">body</span>&gt;</span>
+</code></pre>
+</blockquote>
+<h3 id="-foo-replacewith">$(&apos;#foo&apos;).replaceWith()</h3>
+<blockquote>
+<h4 id="%E8%AF%B4%E6%98%8E%EF%BC%9A">&#x8BF4;&#x660E;&#xFF1A;</h4>
+<ul>
+<li>replaceWith() &#x65B9;&#x6CD5;&#x7528;&#x6307;&#x5B9A;&#x7684; HTML &#x5185;&#x5BB9;&#x6216;&#x5143;&#x7D20;&#x66FF;&#x6362;&#x88AB;&#x9009;&#x5143;&#x7D20;</li>
+<li>&#x4E0D;&#x63A8;&#x8350;&#xFF1A;<code>$(&apos;html&apos;).replaceAll(&apos;#foo&apos;)</code></li>
+</ul>
+<h4 id="%E7%A4%BA%E4%BE%8B%EF%BC%9A">&#x793A;&#x4F8B;&#xFF1A;</h4>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-title">body</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">id</span>=<span class="hljs-value">&quot;foo&quot;</span>&gt;</span>world<span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">script</span> <span class="hljs-attribute">src</span>=<span class="hljs-value">&quot;https://code.jquery.com/jquery-1.11.3.js&quot;</span>&gt;</span><span class="undefined"></span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">script</span>&gt;</span><span class="javascript">
+    $(<span class="hljs-string">&apos;#foo&apos;</span>).prepend(<span class="hljs-string">&apos;&lt;span&gt;hello &lt;/span&gt;&apos;</span>);
+  </span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-title">body</span>&gt;</span>
+</code></pre>
+</blockquote>
+<h3 id="-foo-wrap">$(&apos;#foo&apos;).wrap()</h3>
+<blockquote>
+<h4 id="%E8%AF%B4%E6%98%8E%EF%BC%9A">&#x8BF4;&#x660E;&#xFF1A;</h4>
+<ul>
+<li>wrap() &#x65B9;&#x6CD5;&#x628A;&#x6BCF;&#x4E2A;&#x88AB;&#x9009;&#x5143;&#x7D20;&#x653E;&#x7F6E;&#x5728;&#x6307;&#x5B9A;&#x7684; HTML &#x5185;&#x5BB9;&#x6216;&#x5143;&#x7D20;&#x4E2D;</li>
+</ul>
+<h4 id="%E7%A4%BA%E4%BE%8B%EF%BC%9A">&#x793A;&#x4F8B;&#xFF1A;</h4>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-title">body</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">&quot;foo&quot;</span>&gt;</span>hello world<span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">&quot;foo&quot;</span>&gt;</span>hello world<span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">&quot;foo&quot;</span>&gt;</span>hello world<span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">script</span> <span class="hljs-attribute">src</span>=<span class="hljs-value">&quot;https://code.jquery.com/jquery-1.11.3.js&quot;</span>&gt;</span><span class="undefined"></span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">script</span>&gt;</span><span class="handlebars"><span class="xml">
+    $(&apos;.foo&apos;).wrap(&apos;<span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">id</span>=<span class="hljs-value">&quot;parent&quot;</span> <span class="hljs-attribute">style</span>=<span class="hljs-value">&quot;color:red&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>&apos;);
+  </span></span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-title">body</span>&gt;</span>
+</code></pre>
+</blockquote>
+<h3 id="-foo-wrapall">$(&apos;#foo&apos;).wrapAll()</h3>
+<blockquote>
+<h4 id="%E8%AF%B4%E6%98%8E%EF%BC%9A">&#x8BF4;&#x660E;&#xFF1A;</h4>
+<ul>
+<li>wrapAll() &#x5728;&#x6307;&#x5B9A;&#x7684; HTML &#x5185;&#x5BB9;&#x6216;&#x5143;&#x7D20;&#x4E2D;&#x653E;&#x7F6E;&#x6240;&#x6709;&#x88AB;&#x9009;&#x7684;&#x5143;&#x7D20;</li>
+</ul>
+<h4 id="%E7%A4%BA%E4%BE%8B%EF%BC%9A">&#x793A;&#x4F8B;&#xFF1A;</h4>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-title">body</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">&quot;foo&quot;</span>&gt;</span>hello world<span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">&quot;foo&quot;</span>&gt;</span>hello world<span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">&quot;foo&quot;</span>&gt;</span>hello world<span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">script</span> <span class="hljs-attribute">src</span>=<span class="hljs-value">&quot;https://code.jquery.com/jquery-1.11.3.js&quot;</span>&gt;</span><span class="undefined"></span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">script</span>&gt;</span><span class="handlebars"><span class="xml">
+    $(&apos;.foo&apos;).wrapAll(&apos;<span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">id</span>=<span class="hljs-value">&quot;parent&quot;</span> <span class="hljs-attribute">style</span>=<span class="hljs-value">&quot;color:red&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>&apos;);
+  </span></span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-title">body</span>&gt;</span>
+</code></pre>
+</blockquote>
+<h3 id="-foo-wrapinner">$(&apos;#foo&apos;).wrapInner()</h3>
+<blockquote>
+<h4 id="%E8%AF%B4%E6%98%8E%EF%BC%9A">&#x8BF4;&#x660E;&#xFF1A;</h4>
+<ul>
+<li>wrapInner() &#x65B9;&#x6CD5;&#x4F7F;&#x7528;&#x6307;&#x5B9A;&#x7684; HTML &#x5185;&#x5BB9;&#x6216;&#x5143;&#x7D20;&#xFF0C;&#x6765;&#x5305;&#x88F9;&#x6BCF;&#x4E2A;&#x88AB;&#x9009;&#x5143;&#x7D20;&#x4E2D;&#x7684;&#x6240;&#x6709;&#x5185;&#x5BB9;</li>
+</ul>
+<h4 id="%E7%A4%BA%E4%BE%8B%EF%BC%9A">&#x793A;&#x4F8B;&#xFF1A;</h4>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-title">body</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">&quot;foo&quot;</span>&gt;</span>hello world<span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">&quot;foo&quot;</span>&gt;</span>hello world<span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">&quot;foo&quot;</span>&gt;</span>hello world<span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">script</span> <span class="hljs-attribute">src</span>=<span class="hljs-value">&quot;https://code.jquery.com/jquery-1.11.3.js&quot;</span>&gt;</span><span class="undefined"></span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">script</span>&gt;</span><span class="handlebars"><span class="xml">
+    $(&apos;.foo&apos;).wrapInner(&apos;<span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">id</span>=<span class="hljs-value">&quot;parent&quot;</span> <span class="hljs-attribute">style</span>=<span class="hljs-value">&quot;color:red&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>&apos;);
+  </span></span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-title">body</span>&gt;</span>
+</code></pre>
+</blockquote>
+<h3 id="-foo-unwrap">$(&apos;#foo&apos;).unwrap()</h3>
+<blockquote>
+<h4 id="%E8%AF%B4%E6%98%8E%EF%BC%9A">&#x8BF4;&#x660E;&#xFF1A;</h4>
+<ul>
+<li>unwrap() &#x65B9;&#x6CD5;&#x5220;&#x9664;&#x88AB;&#x9009;&#x5143;&#x7D20;&#x7684;&#x7236;&#x5143;&#x7D20;</li>
+</ul>
+<h4 id="%E7%A4%BA%E4%BE%8B%EF%BC%9A">&#x793A;&#x4F8B;&#xFF1A;</h4>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-title">body</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">id</span>=<span class="hljs-value">&quot;parent&quot;</span> <span class="hljs-attribute">style</span>=<span class="hljs-value">&quot;color: red;&quot;</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">id</span>=<span class="hljs-value">&quot;foo&quot;</span>&gt;</span>hello world<span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">script</span> <span class="hljs-attribute">src</span>=<span class="hljs-value">&quot;https://code.jquery.com/jquery-1.11.3.js&quot;</span>&gt;</span><span class="undefined"></span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">script</span>&gt;</span><span class="javascript">
+    $(<span class="hljs-string">&apos;#foo&apos;</span>).unwrap();
+  </span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-title">body</span>&gt;</span>
+</code></pre>
+</blockquote>
+<h3 id="-foo-text">$(&apos;#foo&apos;).text()</h3>
+<blockquote>
+<h4 id="%E8%AF%B4%E6%98%8E%EF%BC%9A">&#x8BF4;&#x660E;&#xFF1A;</h4>
+<ul>
+<li>text() &#x65B9;&#x6CD5;&#x8BBE;&#x7F6E;&#x6216;&#x8FD4;&#x56DE;&#x88AB;&#x9009;&#x5143;&#x7D20;&#x7684;&#x6587;&#x672C;&#x5185;&#x5BB9;</li>
+</ul>
+<h4 id="%E7%A4%BA%E4%BE%8B%EF%BC%9A">&#x793A;&#x4F8B;&#xFF1A;</h4>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-title">body</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">id</span>=<span class="hljs-value">&quot;foo&quot;</span>&gt;</span>hello world<span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">script</span> <span class="hljs-attribute">src</span>=<span class="hljs-value">&quot;https://code.jquery.com/jquery-1.11.3.js&quot;</span>&gt;</span><span class="undefined"></span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">script</span>&gt;</span><span class="javascript">
+    <span class="hljs-comment">// &#x53D6;&#x503C;</span>
+    <span class="hljs-keyword">var</span> val = $(<span class="hljs-string">&apos;#foo&apos;</span>).text();
+    <span class="hljs-built_in">console</span>.log(val); <span class="hljs-comment">// hello world</span>
+    <span class="hljs-comment">// &#x8D4B;&#x503C;</span>
+    $(<span class="hljs-string">&apos;#foo&apos;</span>).text(<span class="hljs-string">&apos;hello javascript&apos;</span>);
+  </span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-title">body</span>&gt;</span>
+</code></pre>
+</blockquote>
+</blockquote>
+<h2 id="%E7%B1%BB%E5%BA%93-jquery-element-%E5%B1%9E%E6%80%A7%E6%96%B9%E6%B3%95">&#x7C7B;&#x5E93; jQuery - Element - &#x5C5E;&#x6027;&#x65B9;&#x6CD5;</h2>
+<blockquote>
+<h3 id="-foo-attr">$(&apos;#foo&apos;).attr()</h3>
+<blockquote>
+<h4 id="%E8%AF%B4%E6%98%8E%EF%BC%9A">&#x8BF4;&#x660E;&#xFF1A;</h4>
+<ul>
+<li>attr() &#x65B9;&#x6CD5;&#x8BBE;&#x7F6E;&#x6216;&#x8FD4;&#x56DE;&#x88AB;&#x9009;&#x5143;&#x7D20;&#x7684;&#x5C5E;&#x6027;&#x503C;</li>
+</ul>
+<h4 id="%E7%A4%BA%E4%BE%8B%EF%BC%9A">&#x793A;&#x4F8B;&#xFF1A;</h4>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-title">body</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">id</span>=<span class="hljs-value">&quot;foo&quot;</span> <span class="hljs-attribute">style</span>=<span class="hljs-value">&quot;color: red&quot;</span>&gt;</span>hello world<span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">script</span> <span class="hljs-attribute">src</span>=<span class="hljs-value">&quot;https://code.jquery.com/jquery-1.11.3.js&quot;</span>&gt;</span><span class="undefined"></span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">script</span>&gt;</span><span class="javascript">
+    <span class="hljs-comment">// &#x53D6;&#x5C5E;&#x6027;&#x503C;</span>
+    <span class="hljs-keyword">var</span> attr = $(<span class="hljs-string">&apos;#foo&apos;</span>).attr(<span class="hljs-string">&apos;style&apos;</span>);
+    <span class="hljs-built_in">console</span>.log(attr); <span class="hljs-comment">// color: red</span>
+    <span class="hljs-comment">// &#x8D4B;&#x5C5E;&#x6027;&#x503C;</span>
+    $(<span class="hljs-string">&apos;#foo&apos;</span>).attr(<span class="hljs-string">&apos;style&apos;</span>, <span class="hljs-string">&apos;color: blue&apos;</span>);
+  </span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-title">body</span>&gt;</span>
+</code></pre>
+</blockquote>
+<h3 id="-foo-removeattr">$(&apos;#foo&apos;).removeAttr()</h3>
+<blockquote>
+<h4 id="%E8%AF%B4%E6%98%8E%EF%BC%9A">&#x8BF4;&#x660E;&#xFF1A;</h4>
+<ul>
+<li>removeAttr() &#x65B9;&#x6CD5;&#x4ECE;&#x88AB;&#x9009;&#x5143;&#x7D20;&#x4E2D;&#x79FB;&#x9664;&#x5C5E;&#x6027;</li>
+</ul>
+<h4 id="%E7%A4%BA%E4%BE%8B%EF%BC%9A">&#x793A;&#x4F8B;&#xFF1A;</h4>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-title">body</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">id</span>=<span class="hljs-value">&quot;foo&quot;</span> <span class="hljs-attribute">style</span>=<span class="hljs-value">&quot;color: red&quot;</span>&gt;</span>hello world<span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">script</span> <span class="hljs-attribute">src</span>=<span class="hljs-value">&quot;https://code.jquery.com/jquery-1.11.3.js&quot;</span>&gt;</span><span class="undefined"></span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">script</span>&gt;</span><span class="javascript">
+    $(<span class="hljs-string">&apos;#foo&apos;</span>).removeAttr(<span class="hljs-string">&apos;style&apos;</span>);
+  </span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-title">body</span>&gt;</span>
+</code></pre>
+</blockquote>
+<h3 id="-foo-hasclass">$(&apos;#foo&apos;).hasClass()</h3>
+<blockquote>
+<h4 id="%E8%AF%B4%E6%98%8E%EF%BC%9A">&#x8BF4;&#x660E;&#xFF1A;</h4>
+<ul>
+<li>hasClass() &#x65B9;&#x6CD5;&#x68C0;&#x67E5;&#x88AB;&#x9009;&#x5143;&#x7D20;&#x662F;&#x5426;&#x5305;&#x542B;&#x6307;&#x5B9A;&#x7684; class</li>
+</ul>
+<h4 id="%E7%A4%BA%E4%BE%8B%EF%BC%9A">&#x793A;&#x4F8B;&#xFF1A;</h4>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-title">body</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">style</span>&gt;</span><span class="css">
+    <span class="hljs-class">.test</span> <span class="hljs-rules">{
+      <span class="hljs-rule"><span class="hljs-attribute">color</span>:<span class="hljs-value"> red</span></span>;
+    }</span>
+  </span><span class="hljs-tag">&lt;/<span class="hljs-title">style</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">id</span>=<span class="hljs-value">&quot;foo&quot;</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">&quot;test&quot;</span>&gt;</span>hello world<span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">script</span> <span class="hljs-attribute">src</span>=<span class="hljs-value">&quot;https://code.jquery.com/jquery-1.11.3.js&quot;</span>&gt;</span><span class="undefined"></span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">script</span>&gt;</span><span class="javascript">
+    <span class="hljs-keyword">var</span> status = $(<span class="hljs-string">&apos;#foo&apos;</span>).hasClass(<span class="hljs-string">&apos;test&apos;</span>);
+    <span class="hljs-built_in">console</span>.log(status); <span class="hljs-comment">// true</span>
+  </span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-title">body</span>&gt;</span>
+</code></pre>
+</blockquote>
+<h3 id="-foo-addclass">$(&apos;#foo&apos;).addClass()</h3>
+<blockquote>
+<h4 id="%E8%AF%B4%E6%98%8E%EF%BC%9A">&#x8BF4;&#x660E;&#xFF1A;</h4>
+<ul>
+<li>addClass() &#x65B9;&#x6CD5;&#x5411;&#x88AB;&#x9009;&#x5143;&#x7D20;&#x6DFB;&#x52A0;&#x4E00;&#x4E2A;&#x6216;&#x591A;&#x4E2A;&#x7C7B;</li>
+<li>&#x5982;&#x9700;&#x6DFB;&#x52A0;&#x591A;&#x4E2A;&#x7C7B;&#xFF0C;&#x8BF7;&#x4F7F;&#x7528;&#x7A7A;&#x683C;&#x5206;&#x9694;&#x7C7B;&#x540D;</li>
+</ul>
+<h4 id="%E7%A4%BA%E4%BE%8B%EF%BC%9A">&#x793A;&#x4F8B;&#xFF1A;</h4>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-title">body</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">style</span>&gt;</span><span class="css">
+    <span class="hljs-class">.test</span> <span class="hljs-rules">{
+      <span class="hljs-rule"><span class="hljs-attribute">color</span>:<span class="hljs-value"> red</span></span>;
+    }</span>
+  </span><span class="hljs-tag">&lt;/<span class="hljs-title">style</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">id</span>=<span class="hljs-value">&quot;foo&quot;</span>&gt;</span>hello world<span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">script</span> <span class="hljs-attribute">src</span>=<span class="hljs-value">&quot;https://code.jquery.com/jquery-1.11.3.js&quot;</span>&gt;</span><span class="undefined"></span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">script</span>&gt;</span><span class="javascript">
+    $(<span class="hljs-string">&apos;#foo&apos;</span>).addClass(<span class="hljs-string">&apos;test&apos;</span>);
+  </span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-title">body</span>&gt;</span>
+</code></pre>
+</blockquote>
+<h3 id="-foo-removeclass">$(&apos;#foo&apos;).removeClass()</h3>
+<blockquote>
+<h4 id="%E8%AF%B4%E6%98%8E%EF%BC%9A">&#x8BF4;&#x660E;&#xFF1A;</h4>
+<ul>
+<li>removeClass() &#x65B9;&#x6CD5;&#x4ECE;&#x88AB;&#x9009;&#x5143;&#x7D20;&#x79FB;&#x9664;&#x4E00;&#x4E2A;&#x6216;&#x591A;&#x4E2A;&#x7C7B;</li>
+<li>&#x5982;&#x9700;&#x79FB;&#x9664;&#x82E5;&#x5E72;&#x7C7B;&#xFF0C;&#x8BF7;&#x4F7F;&#x7528;&#x7A7A;&#x683C;&#x6765;&#x5206;&#x9694;&#x7C7B;&#x540D;</li>
+<li>&#x5982;&#x679C;&#x6CA1;&#x6709;&#x89C4;&#x5B9A;&#x53C2;&#x6570;&#xFF0C;&#x5219;&#x8BE5;&#x65B9;&#x6CD5;&#x5C06;&#x4ECE;&#x88AB;&#x9009;&#x5143;&#x7D20;&#x4E2D;&#x5220;&#x9664;&#x6240;&#x6709;&#x7C7B;</li>
+</ul>
+<h4 id="%E7%A4%BA%E4%BE%8B%EF%BC%9A">&#x793A;&#x4F8B;&#xFF1A;</h4>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-title">body</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">style</span>&gt;</span><span class="css">
+    <span class="hljs-class">.test</span> <span class="hljs-rules">{
+      <span class="hljs-rule"><span class="hljs-attribute">color</span>:<span class="hljs-value"> red</span></span>;
+    }</span>
+  </span><span class="hljs-tag">&lt;/<span class="hljs-title">style</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">id</span>=<span class="hljs-value">&quot;foo&quot;</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">&quot;test&quot;</span>&gt;</span>hello world<span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">script</span> <span class="hljs-attribute">src</span>=<span class="hljs-value">&quot;https://code.jquery.com/jquery-1.11.3.js&quot;</span>&gt;</span><span class="undefined"></span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">script</span>&gt;</span><span class="javascript">
+    $(<span class="hljs-string">&apos;#foo&apos;</span>).removeClass(<span class="hljs-string">&apos;test&apos;</span>);
+  </span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-title">body</span>&gt;</span>
+</code></pre>
+</blockquote>
+<h3 id="-foo-toggleclass">$(&apos;#foo&apos;).toggleClass()</h3>
+<blockquote>
+<h4 id="%E8%AF%B4%E6%98%8E%EF%BC%9A">&#x8BF4;&#x660E;&#xFF1A;</h4>
+<ul>
+<li>toggleClass() &#x5BF9;&#x8BBE;&#x7F6E;&#x6216;&#x79FB;&#x9664;&#x88AB;&#x9009;&#x5143;&#x7D20;&#x7684;&#x4E00;&#x4E2A;&#x6216;&#x591A;&#x4E2A;&#x7C7B;&#x8FDB;&#x884C;&#x5207;&#x6362;</li>
+</ul>
+<h4 id="%E7%A4%BA%E4%BE%8B%EF%BC%9A">&#x793A;&#x4F8B;&#xFF1A;</h4>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-title">body</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">style</span>&gt;</span><span class="css">
+    <span class="hljs-class">.test</span> <span class="hljs-rules">{
+      <span class="hljs-rule"><span class="hljs-attribute">color</span>:<span class="hljs-value"> red</span></span>;
+    }</span>
+  </span><span class="hljs-tag">&lt;/<span class="hljs-title">style</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">id</span>=<span class="hljs-value">&quot;foo&quot;</span>&gt;</span>hello world<span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">script</span> <span class="hljs-attribute">src</span>=<span class="hljs-value">&quot;https://code.jquery.com/jquery-1.11.3.js&quot;</span>&gt;</span><span class="undefined"></span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">script</span>&gt;</span><span class="javascript">
+    $(<span class="hljs-string">&apos;#foo&apos;</span>).bind(<span class="hljs-string">&apos;click&apos;</span>, <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>)</span>{
+      $(<span class="hljs-string">&apos;#foo&apos;</span>).toggleClass(<span class="hljs-string">&apos;test&apos;</span>);
+    });
+  </span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-title">body</span>&gt;</span>
+</code></pre>
+</blockquote>
+<h3 id="-foo-css">$(&apos;#foo&apos;).css();</h3>
+<blockquote>
+<h4 id="%E8%AF%B4%E6%98%8E%EF%BC%9A">&#x8BF4;&#x660E;&#xFF1A;</h4>
+<ul>
+<li>&#x4E3A;&#x5339;&#x914D;&#x5143;&#x7D20;&#x8BBE;&#x7F6E;&#x4E00;&#x4E2A;&#x6216;&#x591A;&#x4E2A;CSS&#x5C5E;&#x6027;</li>
+</ul>
+<h4 id="%E7%A4%BA%E4%BE%8B%EF%BC%9A">&#x793A;&#x4F8B;&#xFF1A;</h4>
+<pre><code class="lang-javascript">$(<span class="hljs-string">&apos;#foo&apos;</span>).css(<span class="hljs-string">&quot;color&quot;</span>,<span class="hljs-string">&quot;red&quot;</span>);
+$(<span class="hljs-string">&apos;#foo&apos;</span>).css({<span class="hljs-string">&quot;color&quot;</span>:<span class="hljs-string">&quot;red&quot;</span>, <span class="hljs-string">&quot;background-color&quot;</span>:<span class="hljs-string">&quot;yellow&quot;</span>});
+</code></pre>
+</blockquote>
+</blockquote>
+<h2 id="%E7%B1%BB%E5%BA%93-jquery-event-%E7%BB%91%E5%AE%9A%E6%96%B9%E6%B3%95">&#x7C7B;&#x5E93; jQuery - Event - &#x7ED1;&#x5B9A;&#x65B9;&#x6CD5;</h2>
+<blockquote>
+<h3 id="-foo-bind">$(&apos;#foo&apos;).bind();</h3>
+<blockquote>
+<h4 id="%E8%AF%B4%E6%98%8E%EF%BC%9A">&#x8BF4;&#x660E;&#xFF1A;</h4>
+<ul>
+<li>&#x4E3A;&#x4E00;&#x4E2A;&#x5143;&#x7D20;&#x7ED1;&#x5B9A;&#x4E00;&#x4E2A;&#x4E8B;&#x4EF6;&#x5904;&#x7406;&#x7A0B;&#x5E8F;</li>
+</ul>
+<h4 id="%E7%A4%BA%E4%BE%8B%EF%BC%9A">&#x793A;&#x4F8B;&#xFF1A;</h4>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-title">style</span>&gt;</span><span class="css">
+  <span class="hljs-class">.red</span> <span class="hljs-rules">{
+    <span class="hljs-rule"><span class="hljs-attribute">color</span>:<span class="hljs-value"> red</span></span>;
+  }</span>
+</span><span class="hljs-tag">&lt;/<span class="hljs-title">style</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">id</span>=<span class="hljs-value">&quot;foo&quot;</span>&gt;</span>hello world<span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-title">script</span> <span class="hljs-attribute">src</span>=<span class="hljs-value">&quot;https://code.jquery.com/jquery-1.11.3.js&quot;</span>&gt;</span><span class="undefined"></span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-title">script</span>&gt;</span><span class="javascript">
+  $(<span class="hljs-string">&quot;#foo&quot;</span>).bind(<span class="hljs-string">&apos;mouseenter mouseleave&apos;</span>, <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) </span>{
+    $(<span class="hljs-keyword">this</span>).toggleClass(<span class="hljs-string">&apos;red&apos;</span>);
+  });
+</span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
+</code></pre>
+</blockquote>
+<h3 id="-foo-unbind">$(&apos;#foo&apos;).unbind();</h3>
+<blockquote>
+<h4 id="%E8%AF%B4%E6%98%8E%EF%BC%9A">&#x8BF4;&#x660E;&#xFF1A;</h4>
+<ul>
+<li>&#x4ECE;&#x5143;&#x7D20;&#x4E0A;&#x5220;&#x9664;&#x4E00;&#x4E2A;&#x4EE5;&#x524D;&#x9644;&#x52A0;&#x4E8B;&#x4EF6;&#x5904;&#x7406;&#x7A0B;&#x5E8F;</li>
+</ul>
+<h4 id="%E7%A4%BA%E4%BE%8B%EF%BC%9A">&#x793A;&#x4F8B;&#xFF1A;</h4>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-title">style</span>&gt;</span><span class="css">
+  <span class="hljs-class">.red</span> <span class="hljs-rules">{
+    <span class="hljs-rule"><span class="hljs-attribute">color</span>:<span class="hljs-value"> red</span></span>;
+  }</span>
+</span><span class="hljs-tag">&lt;/<span class="hljs-title">style</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">id</span>=<span class="hljs-value">&quot;foo&quot;</span>&gt;</span>hello world<span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-title">script</span> <span class="hljs-attribute">src</span>=<span class="hljs-value">&quot;https://code.jquery.com/jquery-1.11.3.js&quot;</span>&gt;</span><span class="undefined"></span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-title">script</span>&gt;</span><span class="javascript">
+  $(<span class="hljs-string">&quot;#foo&quot;</span>).bind(<span class="hljs-string">&apos;mouseenter mouseleave&apos;</span>, <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) </span>{
+    $(<span class="hljs-keyword">this</span>).toggleClass(<span class="hljs-string">&apos;red&apos;</span>);
+  });
+  $(<span class="hljs-string">&quot;#foo&quot;</span>).unbind(<span class="hljs-string">&apos;mouseenter mouseleave&apos;</span>);
+</span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
+</code></pre>
+</blockquote>
+<h3 id="-foo-on">$(&apos;#foo&apos;).on();</h3>
+<blockquote>
+<h4 id="%E8%AF%B4%E6%98%8E%EF%BC%9A">&#x8BF4;&#x660E;&#xFF1A;</h4>
+<ul>
+<li>&#x4E3A;&#x4E00;&#x4E2A;&#x5143;&#x7D20;&#x7ED1;&#x5B9A;&#x591A;&#x4E2A;&#x4E8B;&#x4EF6;&#x5904;&#x7406;&#x7A0B;&#x5E8F;</li>
+</ul>
+<h4 id="%E7%A4%BA%E4%BE%8B%EF%BC%9A">&#x793A;&#x4F8B;&#xFF1A;</h4>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-title">style</span>&gt;</span><span class="css">
+  <span class="hljs-class">.red</span> <span class="hljs-rules">{
+    <span class="hljs-rule"><span class="hljs-attribute">color</span>:<span class="hljs-value"> red</span></span>;
+  }</span>
+</span><span class="hljs-tag">&lt;/<span class="hljs-title">style</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">id</span>=<span class="hljs-value">&quot;foo&quot;</span>&gt;</span>hello world<span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-title">script</span> <span class="hljs-attribute">src</span>=<span class="hljs-value">&quot;https://code.jquery.com/jquery-1.11.3.js&quot;</span>&gt;</span><span class="undefined"></span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-title">script</span>&gt;</span><span class="javascript">
+  $(<span class="hljs-string">&quot;#foo&quot;</span>).on({
+    click: <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>)</span>{
+      alert(<span class="hljs-string">&apos;hello&apos;</span>);
+    },
+    mouseenter: <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>)</span>{
+      $(<span class="hljs-keyword">this</span>).addClass(<span class="hljs-string">&quot;red&quot;</span>);
+    },
+    mouseleave: <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>)</span>{
+      $(<span class="hljs-keyword">this</span>).removeClass(<span class="hljs-string">&quot;red&quot;</span>);
+    }
+  });
+</span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
+</code></pre>
+</blockquote>
+<h3 id="-foo-off">$(&apos;#foo&apos;).off();</h3>
+<blockquote>
+<h4 id="%E8%AF%B4%E6%98%8E%EF%BC%9A">&#x8BF4;&#x660E;&#xFF1A;</h4>
+<ul>
+<li>&#x4ECE;&#x5143;&#x7D20;&#x4E0A;&#x5220;&#x9664;&#x591A;&#x4E2A;&#x4EE5;&#x524D;&#x9644;&#x52A0;&#x4E8B;&#x4EF6;&#x5904;&#x7406;&#x7A0B;&#x5E8F;</li>
+</ul>
+<h4 id="%E7%A4%BA%E4%BE%8B%EF%BC%9A">&#x793A;&#x4F8B;&#xFF1A;</h4>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-title">style</span>&gt;</span><span class="css">
+  <span class="hljs-class">.red</span> <span class="hljs-rules">{
+    <span class="hljs-rule"><span class="hljs-attribute">color</span>:<span class="hljs-value"> red</span></span>;
+  }</span>
+</span><span class="hljs-tag">&lt;/<span class="hljs-title">style</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">id</span>=<span class="hljs-value">&quot;foo&quot;</span>&gt;</span>hello world<span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-title">script</span> <span class="hljs-attribute">src</span>=<span class="hljs-value">&quot;https://code.jquery.com/jquery-1.11.3.js&quot;</span>&gt;</span><span class="undefined"></span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-title">script</span>&gt;</span><span class="javascript">
+  $(<span class="hljs-string">&quot;#foo&quot;</span>).on({
+    click: <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>)</span>{
+      alert(<span class="hljs-string">&apos;hello&apos;</span>);
+    },
+    mouseenter: <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>)</span>{
+      $(<span class="hljs-keyword">this</span>).addClass(<span class="hljs-string">&quot;red&quot;</span>);
+    },
+    mouseleave: <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>)</span>{
+      $(<span class="hljs-keyword">this</span>).removeClass(<span class="hljs-string">&quot;red&quot;</span>);
+    }
+  });
+  $(<span class="hljs-string">&quot;#foo&quot;</span>).off(<span class="hljs-string">&apos;mouseenter mouseleave&apos;</span>);
+</span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
+</code></pre>
+</blockquote>
+<h3 id="-foo-one">$(&apos;#foo&apos;).one();</h3>
+<blockquote>
+<h4 id="%E8%AF%B4%E6%98%8E%EF%BC%9A">&#x8BF4;&#x660E;&#xFF1A;</h4>
+<ul>
+<li>&#x4E3A;&#x5143;&#x7D20;&#x7684;&#x4E8B;&#x4EF6;&#x6DFB;&#x52A0;&#x5904;&#x7406;&#x51FD;&#x6570;</li>
+<li>&#x5904;&#x7406;&#x51FD;&#x6570;&#x5728;&#x6BCF;&#x4E2A;&#x5143;&#x7D20;&#x4E0A;&#x6BCF;&#x79CD;&#x4E8B;&#x4EF6;&#x7C7B;&#x578B;&#x6700;&#x591A;&#x6267;&#x884C;&#x4E00;&#x6B21;</li>
+</ul>
+<h4 id="%E7%A4%BA%E4%BE%8B%EF%BC%9A">&#x793A;&#x4F8B;&#xFF1A;</h4>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-title">style</span>&gt;</span><span class="css">
+  <span class="hljs-class">.red</span> <span class="hljs-rules">{
+    <span class="hljs-rule"><span class="hljs-attribute">color</span>:<span class="hljs-value"> red</span></span>;
+  }</span>
+</span><span class="hljs-tag">&lt;/<span class="hljs-title">style</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">id</span>=<span class="hljs-value">&quot;foo&quot;</span>&gt;</span>hello world<span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-title">script</span> <span class="hljs-attribute">src</span>=<span class="hljs-value">&quot;https://code.jquery.com/jquery-1.11.3.js&quot;</span>&gt;</span><span class="undefined"></span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-title">script</span>&gt;</span><span class="javascript">
+  $(<span class="hljs-string">&quot;#foo&quot;</span>).one(<span class="hljs-string">&apos;mouseenter mouseleave&apos;</span>, <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) </span>{
+    $(<span class="hljs-keyword">this</span>).toggleClass(<span class="hljs-string">&apos;red&apos;</span>);
+  });
+</span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
+</code></pre>
+</blockquote>
+<h3 id="-foo-trigger">$(&apos;#foo&apos;).trigger();</h3>
+<blockquote>
+<h4 id="%E8%AF%B4%E6%98%8E%EF%BC%9A">&#x8BF4;&#x660E;&#xFF1A;</h4>
+<ul>
+<li>&#x4E3B;&#x52A8;&#x6267;&#x884C;&#x5143;&#x7D20;&#x4E0A;&#x7684;&#x4E8B;&#x4EF6;&#x7C7B;&#x578B;&#x5904;&#x7406;&#x51FD;&#x6570;</li>
+</ul>
+<h4 id="%E7%A4%BA%E4%BE%8B%EF%BC%9A">&#x793A;&#x4F8B;&#xFF1A;</h4>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-title">style</span>&gt;</span><span class="css">
+  <span class="hljs-class">.red</span> <span class="hljs-rules">{
+    <span class="hljs-rule"><span class="hljs-attribute">color</span>:<span class="hljs-value"> red</span></span>;
+  }</span>
+</span><span class="hljs-tag">&lt;/<span class="hljs-title">style</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">id</span>=<span class="hljs-value">&quot;foo&quot;</span>&gt;</span>hello world<span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-title">script</span> <span class="hljs-attribute">src</span>=<span class="hljs-value">&quot;https://code.jquery.com/jquery-1.11.3.js&quot;</span>&gt;</span><span class="undefined"></span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-title">script</span>&gt;</span><span class="javascript">
+  $(<span class="hljs-string">&quot;#foo&quot;</span>).on(<span class="hljs-string">&apos;mouseenter mouseleave&apos;</span>, <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) </span>{
+    $(<span class="hljs-keyword">this</span>).toggleClass(<span class="hljs-string">&apos;red&apos;</span>);
+  });
+  $(<span class="hljs-string">&apos;#foo&apos;</span>).trigger(<span class="hljs-string">&apos;mouseenter&apos;</span>);
+</span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
+</code></pre>
+</blockquote>
+<h3 id="-document-ready">$(document).ready();</h3>
+<blockquote>
+<h4 id="%E8%AF%B4%E6%98%8E%EF%BC%9A">&#x8BF4;&#x660E;&#xFF1A;</h4>
+<ul>
+<li>&#x5728;&#x6587;&#x6863;&#x52A0;&#x8F7D;&#x89E3;&#x6790;&#x5B8C;&#x6210;&#x540E;&#x6FC0;&#x6D3B;&#x7684;&#x51FD;&#x6570;</li>
+<li>&#x5F53; DOM &#x5DF2;&#x7ECF;&#x52A0;&#x8F7D;&#xFF0C;&#x5E76;&#x4E14;&#x9875;&#x9762;&#xFF08;&#x5305;&#x62EC;&#x56FE;&#x50CF;&#xFF09;&#x5DF2;&#x7ECF;&#x5B8C;&#x5168;&#x5448;&#x73B0;&#x65F6;&#xFF0C;&#x4F1A;&#x53D1;&#x751F; ready &#x4E8B;&#x4EF6;</li>
+<li>ready() &#x51FD;&#x6570;&#x4EC5;&#x80FD;&#x7528;&#x4E8E;&#x5F53;&#x524D;&#x6587;&#x6863;&#xFF0C;&#x56E0;&#x6B64;&#x53EF;&#x4EE5;&#x65E0;&#x9700;&#x9009;&#x62E9;&#x5668;</li>
+<li>ready() &#x51FD;&#x6570;&#x4E0D;&#x5E94;&#x4E0E; <code>&lt;body onload=&quot;&quot;&gt;</code> &#x4E00;&#x8D77;&#x4F7F;&#x7528;</li>
+<li>ready() &#x51FD;&#x6570;&#x5141;&#x8BB8;&#x4F7F;&#x7528;&#x4EE5;&#x4E0B;&#x4E09;&#x79CD;&#x8BED;&#x6CD5;</li>
+</ul>
+<h4 id="%E7%A4%BA%E4%BE%8B%EF%BC%9A">&#x793A;&#x4F8B;&#xFF1A;</h4>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-title">body</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">script</span> <span class="hljs-attribute">src</span>=<span class="hljs-value">&quot;https://code.jquery.com/jquery-1.11.3.js&quot;</span>&gt;</span><span class="undefined"></span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">script</span>&gt;</span><span class="javascript">
+    <span class="hljs-comment">// &#x8BED;&#x6CD5; 1 $(document).ready(function);</span>
+    $(<span class="hljs-built_in">document</span>).ready(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>)</span>{
+      <span class="hljs-built_in">console</span>.log(<span class="hljs-string">&apos;hello 1&apos;</span>);
+    });
+    <span class="hljs-comment">// &#x8BED;&#x6CD5; 2 $().ready(function);</span>
+    $().ready(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>)</span>{
+      <span class="hljs-built_in">console</span>.log(<span class="hljs-string">&apos;hello 2&apos;</span>);
+    });
+    <span class="hljs-comment">// &#x8BED;&#x6CD5; 3 $(function);</span>
+    $(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>)</span>{
+      <span class="hljs-built_in">console</span>.log(<span class="hljs-string">&apos;hello 3&apos;</span>);
+    });
+  </span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-title">body</span>&gt;</span>
+</code></pre>
+</blockquote>
+</blockquote>
+
+                    
+                    </section>
+                
+                
+                </div>
+            </div>
+        </div>
+
+        
+        <a href="./o_dom.html" class="navigation navigation-prev " aria-label="Previous page: DOM"><i class="fa fa-angle-left"></i></a>
+        
+        
+        <a href="./o_wom.html" class="navigation navigation-next " aria-label="Next page: WOM"><i class="fa fa-angle-right"></i></a>
+        
+    </div>
+</div>
+
+        
+<script src="gitbook/app.js"></script>
+
+<script>
+require(["gitbook"], function(gitbook) {
+    var config = {"fontSettings":{"theme":null,"family":"sans","size":2}};
+    gitbook.start(config);
+});
+</script>
+
+        
+    </body>
+    
+</html>
