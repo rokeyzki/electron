@@ -1,7 +1,10 @@
 ### 开发运行app（依赖 electron-prebuilt）
 
 ```
+// mac
 sudo ./node_modules/.bin/electron .
+// win
+.\node_modules\.bin\electron .
 ```
 
 ### 开发注意事项
