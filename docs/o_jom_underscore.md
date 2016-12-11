@@ -74,10 +74,22 @@ var foo = _.extend({}, {'a': 1}, {'b': 2});
 // => { 'a': 1, 'b': 2 }
 ```
 
+## 类库 Underscore - 集合 - 属性方法
+### _.size
+
+```javascript
+_.size([1, 2, 3]); // => 3
+_.size({ 'a': 1, 'b': 2 }); // => 2
+```
+
 ## 类库 Underscore - 集合 - 遍历方法
 ### _.each
 
 ```javascript
+_.each([1, 2, 3], function(value, key) {
+  console.log(key);
+});
+// => 0 1 2
 _.each({ 'a': 1, 'b': 2 }, function(value, key) {
   console.log(key);
 });
