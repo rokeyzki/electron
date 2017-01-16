@@ -751,14 +751,14 @@ myDiv.classList.toString();
     $('[name = "foo1"]').val([1,3,5]);
     // 反选
     $('[name = "foo1"]').each(function(){
-      if($(this).attr('checked')){
-        $(this).removeAttr('checked');
+      if($(this).prop('checked')){
+        $(this).prop('checked', '');
       }else{
-        $(this).attr('checked', 'checked');
+        $(this).prop('checked', 'on');
       }
     });
     // 全选
-    $('[name = "foo1"]').attr('checked', 'true');
+    $('[name = "foo1"]').prop('checked', 'on');
   </script>
 </body>
 ```

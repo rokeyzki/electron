@@ -1747,14 +1747,14 @@ myDiv.classList.toString();
     $(<span class="hljs-string">&apos;[name = &quot;foo1&quot;]&apos;</span>).val([<span class="hljs-number">1</span>,<span class="hljs-number">3</span>,<span class="hljs-number">5</span>]);
     <span class="hljs-comment">// &#x53CD;&#x9009;</span>
     $(<span class="hljs-string">&apos;[name = &quot;foo1&quot;]&apos;</span>).each(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>)</span>{
-      <span class="hljs-keyword">if</span>($(<span class="hljs-keyword">this</span>).attr(<span class="hljs-string">&apos;checked&apos;</span>)){
-        $(<span class="hljs-keyword">this</span>).removeAttr(<span class="hljs-string">&apos;checked&apos;</span>);
+      <span class="hljs-keyword">if</span>($(<span class="hljs-keyword">this</span>).prop(<span class="hljs-string">&apos;checked&apos;</span>)){
+        $(<span class="hljs-keyword">this</span>).prop(<span class="hljs-string">&apos;checked&apos;</span>, <span class="hljs-string">&apos;&apos;</span>);
       }<span class="hljs-keyword">else</span>{
-        $(<span class="hljs-keyword">this</span>).attr(<span class="hljs-string">&apos;checked&apos;</span>, <span class="hljs-string">&apos;checked&apos;</span>);
+        $(<span class="hljs-keyword">this</span>).prop(<span class="hljs-string">&apos;checked&apos;</span>, <span class="hljs-string">&apos;on&apos;</span>);
       }
     });
     <span class="hljs-comment">// &#x5168;&#x9009;</span>
-    $(<span class="hljs-string">&apos;[name = &quot;foo1&quot;]&apos;</span>).attr(<span class="hljs-string">&apos;checked&apos;</span>, <span class="hljs-string">&apos;true&apos;</span>);
+    $(<span class="hljs-string">&apos;[name = &quot;foo1&quot;]&apos;</span>).prop(<span class="hljs-string">&apos;checked&apos;</span>, <span class="hljs-string">&apos;on&apos;</span>);
   </span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span>
 <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
 </code></pre>
@@ -1803,7 +1803,7 @@ myDiv.classList.toString();
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"元素 - Element","level":"1.7.3","depth":2,"next":{"title":"文本 - Text","level":"1.7.4","depth":2,"path":"dom_text.md","ref":"dom_text.md","articles":[]},"previous":{"title":"文档 - Document","level":"1.7.2","depth":2,"path":"dom_document.md","ref":"dom_document.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"dom_element.md","mtime":"2016-12-10T14:01:06.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2016-12-11T11:35:05.678Z"},"basePath":".","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"元素 - Element","level":"1.7.3","depth":2,"next":{"title":"文本 - Text","level":"1.7.4","depth":2,"path":"dom_text.md","ref":"dom_text.md","articles":[]},"previous":{"title":"文档 - Document","level":"1.7.2","depth":2,"path":"dom_document.md","ref":"dom_document.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"dom_element.md","mtime":"2017-01-16T13:07:48.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-01-16T13:11:22.966Z"},"basePath":".","book":{"language":""}});
         });
     </script>
 </div>
