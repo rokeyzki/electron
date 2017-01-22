@@ -1,4 +1,4 @@
-# ## 类库 Underscore - 数据类型 - 判断方法
+## 类库 Underscore - 数据类型 - 判断方法
 ### _.isEmpty
 
 ```javascript
