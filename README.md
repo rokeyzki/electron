@@ -47,8 +47,12 @@ let mainWindow = new BrowserWindow({
 ```
 // linux: --platform=linux
 // macOS: --platform=darwin
-// windows: --platform=win32
 sudo ./node_modules/.bin/electron-packager ./ "My Docs" --platform=darwin --out presenterTool --arch=x64 --version 1.3.4 --overwrite --ignore="(node_modules|README.md)"
+```
+
+```
+// windows: --platform=win32
+.\node_modules\.bin\electron-packager .\ "My Docs" --platform=win32 --out pr esenterTool --arch=x64 --version 1.3.4 --overwrite --ignore="(node_modules|README.md)"
 ```
 
 ### 加密源码
