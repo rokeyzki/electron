@@ -52,7 +52,8 @@ sudo ./node_modules/.bin/electron-packager ./ "My Docs" --platform=darwin --out 
 
 ```
 // windows: --platform=win32
-.\node_modules\.bin\electron-packager .\ "My Docs" --platform=win32 --out pr esenterTool --arch=x64 --version 1.3.4 --overwrite --ignore="(node_modules|README.md)"
+.\node_modules\.bin\electron-packager .\ "My Docs" --platform=win32 --out presenterTool --arch=x64 --version 1.3.4 --overwrite --ignore="(node_modules|README.md)"
+// 生成的程序文件在 presenterTool/My Docs-win32-x64 目录中，在windows系统下，整个 My Docs-win32-x64 目录都是必须的，如果只复制出exe文件是不能正确执行的。
 ```
 
 ### 加密源码
