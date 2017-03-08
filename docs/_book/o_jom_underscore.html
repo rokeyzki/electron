@@ -1010,6 +1010,19 @@ _.isDate(<span class="hljs-keyword">new</span> <span class="hljs-built_in">Date<
 <span class="hljs-keyword">var</span> foo = _.extend({}, {<span class="hljs-string">&apos;a&apos;</span>: <span class="hljs-number">1</span>}, {<span class="hljs-string">&apos;b&apos;</span>: <span class="hljs-number">2</span>});
 <span class="hljs-comment">// =&gt; { &apos;a&apos;: 1, &apos;b&apos;: 2 }</span>
 </code></pre>
+<h2 id="&#x7C7B;&#x5E93;-underscore---&#x6570;&#x7EC4;---&#x7D22;&#x5F15;&#x65B9;&#x6CD5;">&#x7C7B;&#x5E93; Underscore - &#x6570;&#x7EC4; - &#x7D22;&#x5F15;&#x65B9;&#x6CD5;</h2>
+<h3 id="indexof">_.indexOf</h3>
+<pre><code class="lang-javascript">_.indexOf([<span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">3</span>], <span class="hljs-number">2</span>); <span class="hljs-comment">// =&gt; 1</span>
+_.indexOf([<span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">3</span>], <span class="hljs-number">5</span>); <span class="hljs-comment">// =&gt; -1</span>
+</code></pre>
+<h2 id="&#x7C7B;&#x5E93;-underscore---&#x6570;&#x7EC4;---&#x6BD4;&#x8F83;&#x65B9;&#x6CD5;">&#x7C7B;&#x5E93; Underscore - &#x6570;&#x7EC4; - &#x6BD4;&#x8F83;&#x65B9;&#x6CD5;</h2>
+<h3 id="difference">_.difference</h3>
+<pre><code class="lang-javascript">_.difference([<span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">3</span>, <span class="hljs-number">4</span>, <span class="hljs-number">5</span>], [<span class="hljs-number">5</span>, <span class="hljs-number">2</span>, <span class="hljs-number">10</span>]); <span class="hljs-comment">// =&gt; [1, 3, 4]</span>
+</code></pre>
+<h2 id="&#x7C7B;&#x5E93;-underscore---&#x6570;&#x7EC4;---&#x53BB;&#x91CD;&#x65B9;&#x6CD5;">&#x7C7B;&#x5E93; Underscore - &#x6570;&#x7EC4; - &#x53BB;&#x91CD;&#x65B9;&#x6CD5;</h2>
+<h3 id="uniq">_.uniq</h3>
+<pre><code class="lang-javascript">_.uniq([<span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">1</span>, <span class="hljs-number">3</span>, <span class="hljs-number">1</span>, <span class="hljs-number">4</span>]); <span class="hljs-comment">// =&gt; [1, 2, 3, 4]</span>
+</code></pre>
 <h2 id="&#x7C7B;&#x5E93;-underscore---&#x96C6;&#x5408;---&#x5C5E;&#x6027;&#x65B9;&#x6CD5;">&#x7C7B;&#x5E93; Underscore - &#x96C6;&#x5408; - &#x5C5E;&#x6027;&#x65B9;&#x6CD5;</h2>
 <h3 id="size">_.size</h3>
 <pre><code class="lang-javascript">_.size([<span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">3</span>]); <span class="hljs-comment">// =&gt; 3</span>
@@ -1178,16 +1191,6 @@ _.some(users, { <span class="hljs-string">&apos;active&apos;</span>: <span class
 _.some(users, <span class="hljs-string">&apos;active&apos;</span>);
 <span class="hljs-comment">// =&gt; true</span>
 </code></pre>
-<h3 id="includes-v-17">_.includes (v: 1.7+)</h3>
-<pre><code class="lang-javascript">_.includes([<span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">3</span>], <span class="hljs-number">1</span>);
-<span class="hljs-comment">// =&gt; true</span>
-_.includes([<span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">3</span>], <span class="hljs-number">1</span>, <span class="hljs-number">2</span>);
-<span class="hljs-comment">// =&gt; false</span>
-_.includes({ <span class="hljs-string">&apos;a&apos;</span>: <span class="hljs-number">1</span>, <span class="hljs-string">&apos;b&apos;</span>: <span class="hljs-number">2</span> }, <span class="hljs-number">1</span>);
-<span class="hljs-comment">// =&gt; true</span>
-_.includes(<span class="hljs-string">&apos;abcd&apos;</span>, <span class="hljs-string">&apos;bc&apos;</span>);
-<span class="hljs-comment">// =&gt; true</span>
-</code></pre>
 <h2 id="&#x7C7B;&#x5E93;-underscore---&#x51FD;&#x6570;---&#x53C2;&#x6570;&#x65B9;&#x6CD5;">&#x7C7B;&#x5E93; Underscore - &#x51FD;&#x6570; - &#x53C2;&#x6570;&#x65B9;&#x6CD5;</h2>
 <h3 id="partial">_.partial</h3>
 <pre><code class="lang-javascript"><span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">foo</span>(<span class="hljs-params">x, y</span>)</span>{
@@ -1306,7 +1309,7 @@ fooThrottle(<span class="hljs-string">&apos;test&apos;</span>); <span class="hlj
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"JOM - Underscore 1.7","level":"1.2.4","depth":2,"next":{"title":"DOM","level":"1.2.5","depth":2,"path":"o_dom.md","ref":"o_dom.md","articles":[]},"previous":{"title":"JOM","level":"1.2.3","depth":2,"path":"o_jom.md","ref":"o_jom.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"o_jom_underscore.md","mtime":"2017-02-04T02:13:56.648Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-02-04T05:53:56.295Z"},"basePath":".","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"JOM - Underscore 1.7","level":"1.2.4","depth":2,"next":{"title":"DOM","level":"1.2.5","depth":2,"path":"o_dom.md","ref":"o_dom.md","articles":[]},"previous":{"title":"JOM","level":"1.2.3","depth":2,"path":"o_jom.md","ref":"o_jom.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"o_jom_underscore.md","mtime":"2017-03-08T06:23:04.001Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-03-08T06:58:45.772Z"},"basePath":".","book":{"language":""}});
         });
     </script>
 </div>

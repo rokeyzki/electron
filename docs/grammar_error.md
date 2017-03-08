@@ -51,3 +51,8 @@ function foo(x){
 	console.log(2*x);
 }
 ```
+
+## 断点调试
+> * 在JS代码需要调试的位置输入`debugger`，当代码执行到这个位置的时候会暂停程序。
+> * 打开Chrome的开发者工具，选择`Sources`这个Tab，重新执行页面即可进行断点调试。
+> * 在`Sources`页找到`Watch`区域，可以输入添加你要观察的变量名，提高debug的效率。

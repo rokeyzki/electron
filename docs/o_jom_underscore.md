@@ -74,6 +74,28 @@ var foo = _.extend({}, {'a': 1}, {'b': 2});
 // => { 'a': 1, 'b': 2 }
 ```
 
+## 类库 Underscore - 数组 - 索引方法
+### _.indexOf
+
+```javascript
+_.indexOf([1, 2, 3], 2); // => 1
+_.indexOf([1, 2, 3], 5); // => -1
+```
+
+## 类库 Underscore - 数组 - 比较方法
+### _.difference
+
+```javascript
+_.difference([1, 2, 3, 4, 5], [5, 2, 10]); // => [1, 3, 4]
+```
+
+## 类库 Underscore - 数组 - 去重方法
+### _.uniq
+
+```javascript
+_.uniq([1, 2, 1, 3, 1, 4]); // => [1, 2, 3, 4]
+```
+
 ## 类库 Underscore - 集合 - 属性方法
 ### _.size
 
@@ -293,19 +315,6 @@ _.some(users, { 'user': 'barney', 'active': false });
 _.some(users, { 'active': false });
 // => true
 _.some(users, 'active');
-// => true
-```
-
-### _.includes (v: 1.7+)
-
-```javascript
-_.includes([1, 2, 3], 1);
-// => true
-_.includes([1, 2, 3], 1, 2);
-// => false
-_.includes({ 'a': 1, 'b': 2 }, 1);
-// => true
-_.includes('abcd', 'bc');
 // => true
 ```
 

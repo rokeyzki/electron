@@ -63,6 +63,19 @@ decodeURI(url);
 decodeURIComponent(value);
 ```
 
+### BASE64 (IE10+ && Not CN)
+* 编码：window.btoa()
+
+```javascript
+btoa("123abc") // "MTIzYWJj"
+```
+
+* 解码：window.atob()
+
+```javascript
+atob("MTIzYWJj") // 123abc
+```
+
 ### Data
 * 临时：window.sessionStorage()
 

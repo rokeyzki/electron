@@ -28,7 +28,7 @@ z-index: ${1:value};
  * 自然：static
  * 相对：relative
  * 全局固定：fixed
- * 局部固定：absolute
+ * 局部固定：absolute（相对于非static属性的最近祖级容器，一般是先对其父级容器设置空的relative属性）
  */
 position: ${1:value};
 ```

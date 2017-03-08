@@ -193,7 +193,7 @@ ParentClass.isPrototypeOf(ChildClass); // true
 </head>
 <body>
     <!-- 此处为HTML代码 -->
-    <!-- AMD规范：以require.js为例 -->
+    <!-- AMD规范：以RequireJS为例 -->
     <script src="http://cdn.staticfile.org/require.js/2.1.15/require.min.js" data-main="2.main" defer async="true"></script>
 </body>
 </html>
@@ -283,8 +283,13 @@ define('mathB', ['mathA'], function(mA) {
 });
 ```
 
-## CMD规范
-> ### 以 CommonJS 的风格为例（类似 Node.js 中使用的模块规范）
+> ### AMD规范与CMD规范的区别
+* AMD规范和CMD规范都是运行在浏览器端支持异步加载的模块化规范
+* AMD规范推崇依赖前置，典型实现为RequireJS（Webpack也支持AMD规范）
+* CMD规范推崇依赖就近，典型实现为SeaJS
+
+## CommonJS规范
+> ### 以 CommonJS 的风格为例（类似 Node.js 中使用的模块规范，包括browserify、webpack等在服务端预编译的模块化管理工具）
 >> ```javascript
 /**
  * 关于Node.js使用CMD规范的一些补充说明
