@@ -17,6 +17,7 @@
 * 截取指定范围的数组成员：Array.prototype.slice()
 * 删除指定范围的数组成员：Array.prototype.splice()
 * 对数组进行字母排序：Array.prototype.sort()
+* 数组元素调用指定的回调函数，返回累积结果：Array.prototype.reduce()
 
 ***
 

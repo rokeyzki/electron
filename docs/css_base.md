@@ -14,7 +14,7 @@
  * 无样式：none
  * 块级元素：block (底线向下换行)
  * 内联元素：inline (底线向左对齐)
- * 外部内联、内部块级元素：inline-block
+ * 外部内联、内部块级元素：inline-block（两个inline-block元素之间如果换行也会产生占位符）
  * 继承：inherit
  */
 display: ${1:value};

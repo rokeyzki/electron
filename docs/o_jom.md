@@ -1,4 +1,4 @@
-### Module
+### ES6 Module
 * 上游 a.js
 
 ```javascript
@@ -136,6 +136,7 @@ console.dir(a); // {y:2, x:3, z:4};
     * const a = arguments[0]? arguments[0]: 1;
     * `[ES6]` function foo(...arguments)
     * `[ES6]` foo(...arrayName)
+    * 参数转数组：const arguArr = [].slice.call(arguments); 
 * 类型
 
 ```javascript
@@ -309,6 +310,7 @@ group();
     * Array.prototype.join()
     * Array.prototype.slice()
     * Array.prototype.splice()
+    * `es5` Array.prototype.reduce()
 
 ### Date
 * 声明
@@ -333,5 +335,3 @@ group();
     * Date.prototype.setHours()
     * Date.prototype.setMinutes()
     * Date.prototype.setSeconds()
-
-### Lodash

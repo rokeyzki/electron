@@ -168,7 +168,7 @@
     * nowrap
 * list-style
     * 样式
-        * dics
+        * disc
         * none
     * 位置
         * outside
@@ -301,5 +301,18 @@
   box-sizing: border-box;
   padding: 10px;
   margin: 0 auto;
+}
+```
+
+### middle
+```css
+.wrapper {
+  width: 100%;
+  height: 100%;
+  display: table;
+}
+.wrapper .content {
+  display: table-cell;
+  vertical-align: middle;
 }
 ```

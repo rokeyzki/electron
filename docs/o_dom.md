@@ -138,7 +138,7 @@ function getStyle(obj, prop){
 
 ```javascript
 document.onreadystatechange = function(){
-  if(this.readtState == "complete"){
+  if(this.readyState == "complete"){
     // todo
   }
 };
