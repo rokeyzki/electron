@@ -130,16 +130,37 @@ let template = [{
   }]
 }];
 
-// 创建自定义菜单
-const menu = Menu.buildFromTemplate(template)
-Menu.setApplicationMenu(menu);
-
 // 保持对窗口对象的全局引用。如果不这么做的话，JavaScript垃圾回收的时候窗口会自动关闭
 let mainWindow = null;
 
-// 当应用初始化结束后调用这个方法，并渲染浏览器窗口
+// 当app初始化完成时
 app.on('ready', function () {
+  // 创建自定义菜单
+  const menu = Menu.buildFromTemplate(template)
+  Menu.setApplicationMenu(menu);
+
   // 创建一个窗口
+  createWindow();
+});
+
+// 当app所有的窗口都关闭时
+app.on('window-all-closed', function () {
+  // 在 OS X 系统里，除非用户按下Cmd + Q，否则应用和它们的menu bar会保持运行
+  if (process.platform != 'darwin') { // 如果是 Windows 系统，则退出app
+    app.quit();
+  }
+});
+
+// 当app被激活时
+app.on('activate', () => {
+  // 对于 OS X 系统，当没有app窗口存在时，dock图标被点击后会重新创建一个app窗口
+  if (mainWindow === null) {
+    createWindow();
+  }
+});
+
+function createWindow() {
+  // 实例化一个窗口对象
   mainWindow = new BrowserWindow({
     width: 1200,
     height: 800,
@@ -148,7 +169,7 @@ app.on('ready', function () {
     }
   });
 
-  // 加载index.js
+  // 加载访问入口的路径
   mainWindow.loadURL('file://' + __dirname + '/docs/_book/index.html');
 
   // 打开 DevTools（PS：生产环境清注释这一项）
@@ -160,19 +181,4 @@ app.on('ready', function () {
     // 因此删除的时候可以在这里删掉相应的元素
     mainWindow = null;
   });
-});
-
-// 当所有的窗口关闭的时候退出应用
-app.on('window-all-closed', function () {
-  // 在 OS X 系统里，除非用户按下Cmd + Q，否则应用和它们的menu bar会保持运行
-  if (process.platform != 'darwin') {
-    app.quit();
-  }
-});
-
-app.on('activate', () => {
-  // 对于 OS X 系统，当没有app窗口存在时，dock图标被点击后会重新创建一个app窗口
-  if (mainWindow === null) {
-    createWindow();
-  }
-});
+}
