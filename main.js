@@ -7,14 +7,6 @@ const BrowserWindow = electron.BrowserWindow;  // 创建原生窗口的模块
 // 保持对窗口对象的全局引用。如果不这么做的话，JavaScript垃圾回收的时候窗口会自动关闭
 var mainWindow = null;
 
-// 当所有的窗口关闭的时候退出应用
-app.on('window-all-closed', function() {
-  // 在 OS X 系统里，除非用户按下Cmd + Q，否则应用和它们的menu bar会保持运行
-  if (process.platform != 'darwin') {
-    app.quit();
-  }
-});
-
 // 当应用初始化结束后调用这个方法，并渲染浏览器窗口
 app.on('ready', function() {
   // 创建一个窗口
@@ -38,4 +30,19 @@ app.on('ready', function() {
     // 因此删除的时候可以在这里删掉相应的元素
     mainWindow = null;
   });
+});
+
+// 当所有的窗口关闭的时候退出应用
+app.on('window-all-closed', function() {
+  // 在 OS X 系统里，除非用户按下Cmd + Q，否则应用和它们的menu bar会保持运行
+  if (process.platform != 'darwin') {
+    app.quit();
+  }
+});
+
+app.on('activate', () => {
+  // 对于 OS X 系统，当没有app窗口存在时，dock图标被点击后会重新创建一个app窗口
+  if (mainWindow === null) {
+    createWindow();
+  }
 });
