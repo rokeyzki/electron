@@ -1,4 +1,4 @@
-# 纲要 - Outline
+# 概要 - Outline
 
 * [CSS](o_css.md)
 * [CSS - Pure 0.6](o_css_pure.md)
