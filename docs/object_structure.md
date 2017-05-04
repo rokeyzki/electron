@@ -34,3 +34,18 @@ console.log(fooB.hasOwnProperty('z')); // false
 > 4. 第四层：元祖对象的原型（即Object.prototype）指向 null
 
 > 以上即为一个实例对象的原型链结构
+
+## 对象的简易比较
+> 通过将对象转成JSON字符串，再进行比较
+
+```javascript
+var a = {x:1};
+var b = {x:1};
+
+a = JSON.stringify(a); // "{"x":1}"
+b = JSON.stringify(b); // "{"x":1}"
+
+(a === b) // true
+```
+
+> 这个方法效率较差，也存在一些弊端，但是对于简单的对象比较时还是可以使用

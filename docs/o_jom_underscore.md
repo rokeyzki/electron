@@ -64,7 +64,16 @@ _.isDate({}); // => false
 _.isDate(new Date()); // => true
 ```
 
-## 类库 Underscore - 数据类型 - 对象方法
+## 类库 Underscore - 对象 - 比较方法
+### _.isEqual
+
+```javascript
+_.isEqual({ x: 1 }, { x: 1 }); // true
+_.isEqual({ x: 1 }, { 'x': 1 }); // true
+_.isEqual({ x: 1 }, { x: '1' }); // false
+```
+
+## 类库 Underscore - 对象 - 合并方法
 ### _.extend
 
 ```javascript
