@@ -4,7 +4,7 @@
 
 ## 对象扩展方法
 通过对象扩展方法可以限制对象是否可以增加属性
-> ```javascript
+```javascript
 var fooA = {x:1, y:2};
 // 判断对象的扩展性
 Object.isExtensible(fooA); // true
@@ -19,8 +19,8 @@ fooA.z = 3; // undefined, add new property failed
 ## 对象限制方法
 通过对象限制方法可以统一控制对象属性的标签（不包括原型链上的属性）<br>
 对象限制方法包括 seal（封印）、freeze（冻结）两种方式：
-> 第一种对象限制方式（seal）
-> ```javascript
+### 第一种对象限制方式（seal）
+```javascript
 var fooA = {x:1; y:2};
 // 检测该对象的属性的标签
 Object.getOwnPropertyDescriptor(fooA, 'x'); // Object {value: 1, writable: true, enumerable: true, configurable: true}
@@ -31,8 +31,8 @@ Object.getOwnPropertyDescriptor(fooA, 'x'); // Object {value: 1, writable: true,
 // 判断对象是否被seal（封印）
 Object.isSealed(fooA); // true
 ```
-> 第二种对象限制方式（freeze）
-> ```javascript
+### 第二种对象限制方式（freeze）
+```javascript
 var fooA = {x:1; y:2};
 // 检测该对象的属性的标签
 Object.getOwnPropertyDescriptor(fooA, 'x'); // Object {value: 1, writable: true, enumerable: true, configurable: true}
@@ -46,8 +46,8 @@ Object.isFrozen(fooA); // true
 
 ## 对象序列化方法
 对象格式数据与JSON格式数据之间的转换
-> 第一种对象序列化方式（直接转换）
-> ```javascript
+### 第一种对象序列化方式（直接转换）
+```javascript
 var fooA = {a:1, b:true, c:[1,2,3], d:null, e:undefined, f:NaN, g:Infinity, h:new Date()};
 // 使用JSON.stringify方法将对象转为JSON
 JSON.stringify(fooA); // '{"a":1, "b":true, "c":[1,2,3], "d":null, "f":null, "g":null, "h":"2015-01-20T14:15:43.910Z"}'
@@ -55,8 +55,8 @@ JSON.stringify(fooA); // '{"a":1, "b":true, "c":[1,2,3], "d":null, "f":null, "g"
 fooB = JSON.parse('{"x":1}');
 console.log(fooB.x); // 1
 ```
-> 第二种对象序列化方式（内置转换）
-> ```javascript
+### 第二种对象序列化方式（内置转换）
+```javascript
 var fooA = {
     x:1,
     y:2,
@@ -73,7 +73,7 @@ JSON.stringify(fooA); // '{"x":1, "y":2, "z":3}';
 
 ## 对象输出方法
 一般通过重定义 toString 或 valueOf 方法 来使对象有输出值
-> ```javascript
+```javascript
 var fooA = {x:1, y:2};
 fooA.toString(); // [object Object]
 +fooA; // NaN
@@ -86,4 +86,40 @@ fooA.valueOf = function(){return this.x + this.y + 100};
 // 当拼接的前引为数字时，对象输出为整型数据
 1 + fooA; // 104
 ```
->
+
+## 对象拷贝方法
+### 浅拷贝
+如果源对象某个属性的值是对象，那么目标对象拷贝得到的是这个对象的引用
+```javascript
+let a = {
+    x: 1,
+    y: {
+        foo: 1,
+    },
+};
+let b = Object.assign({}, a);
+// 缩写
+let b = { ...a };
+// x
+a.x = 2;
+console.log(b.x) // 1;
+// y
+a.y.foo = 2;
+console.log(b.y.foo) // 2;
+```
+### 深拷贝
+```javascript
+let a = {
+    x: 1,
+    y: {
+        foo: 1,
+    },
+};
+let b = Object.create(a);
+// x
+a.x = 2;
+console.log(b.x) // TODO: ?;
+// y
+a.y.foo = 2;
+console.log(b.y.foo) // TODO: ?;
+```
